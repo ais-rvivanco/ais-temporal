@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 78px;
+}
+h2{
+    font-weight: bold;
+    font-size: 20pt;
+}
+h3{
+    font-size: 20pt;
+    font-weight: lighter;
+}
+svg:hover{
+    fill: #485CC7;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #485CC7;
+}
+body{
+    background-color:#051E42;
+    font-family: TT Norms;
+    color: white;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(C:\Users\gdferrusca\wamp64\www\Ai27-LP\fonts\TTNorms-Light.otf);
+  }
+.container{
+    max-width: 1520px;
+    margin: 0 auto;
+    align-content: center;
+}
+main{
+    margin: 0 auto;
+  }
+.above{
+    height: 100%;
+    margin-bottom: -200px;
+}  
+video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+.menu{
+    top: 0px;
+    width: 1520px;
+    height: 117px;
+    background: 0% 0% no-repeat padding-box padding-box rgba(4, 30, 66, 0.83);
+    border-radius: 0px 0px 18px 18px;
+    opacity: 1;
+    backdrop-filter: blur(7px);
+    z-index: 9;
+    position: fixed; 
+    box-shadow: rgba(0, 0, 0, 0.306) 0px 3px 6px;
+}
+menu{
+    flex-direction: row;
+    flex-flow: row;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-right: 50px;
+    top: 20%;
+    
+}
+.logo{
+    width: 150px;
+}
+.option{
+    display: flex;
+    flex-flow: row;
+    padding-left:50px;
+}
+button{
+    color: white;
+    top: 32px;
+    left: 1385px;
+    width: 304px;
+    height: 45px;
+    background:#A20067 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    font-weight: bold;
+    font-family: TT Norms;
+    border-style: none;
+    font-size: 15pt;
+
+}
+.ATF{
+    background-color: #A20067;
+    margin-top: 25px;
+    z-index: 1;
+}
+.above{
+    padding-top: 300px;
+    height: 100%;
+}
+h1{
+    margin-bottom: 25px;
+    font-size: 40pt;
+}
+.servicio{
+    height: 100%;
+    background-color: #051E42;
+    padding-top: 100px;
+    text-align: center;
+}
+.seguridad{
+    margin-top: 10px;
+    text-align: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 55px;
+}
+.card-wrapper{
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    border: none;
+}
+@keyframes card-height{
+
+}
+.card-tittle{
+    position: absolute;
+    display: flex;
+    flex-flow: row;
+    height: 95px;
+    background-color: #000;
+    border-radius: 18px 18px 0 0;
+    top: 0;
+    width: 692px;
+    background: 0% 0% no-repeat padding-box padding-box rgba(100, 100, 100, 0.3);
+    backdrop-filter: blur(30px);
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card-icon{
+    width: 36px;
+    margin-right: 20px;
+}
+.card-tittle:hover{
+    background: 0% 0% no-repeat padding-box padding-box rgba(100, 100, 100, 0.1);
+}
+.card-icon-tittle{
+    display:flex;
+    flex-flow: row;
+}
+.card-img{
+    transition: transform .5s;
+}
+.card-img:hover{
+    transform: scale(1.1);
+}
+.infra{
+    max-width: 1520px;
+    height: 100%;
+    width: 100%;
+}
+.slider-wrapper{
+    position: absolute;
+    width: 100%;
+    
+    left: 0;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    
+    transition: background-color 0.6s ease;
+  }
+
+.active {
+    background-color: #717171;
+  }
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.banner{
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+button.cintillo-btn{
+    border-color: #fff;
+    background: none;
+    border-width: 2pt;
+    border-style: solid;
+}
+.cintillo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#485CC7 ;
+    height: 267px;
+    top: 50%;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+#clients{
+    position: absolute;
+    background-color: white;
+    color: #051E42;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    margin-top: 265px;
+    margin-bottom: 400px;
+}
+h2.logo-tittle{
+    margin-bottom: 50px;
+    font-size: 30pt;
+}
+.clientes{
+    display: flex;
+    flex-flow: row;
+    padding-top: 100px;
+    padding-left: 250px;
+}
+.datos{
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}  
+.num-txt{
+    display: flex;
+    flex-flow: row;
+}
+.num{
+    font-size: 60pt;
+    font-weight: bold;
+}
+.datos-txt{
+    font-size: 25pt;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.linea{
+    position: absolute;
+    top: 388px;
+    left: 1148px;
+}
+.logos{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+.Contact{
+    position: absolute;
+    background-image: url(../assets/Bg-Contacto.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    margin-top: 1200px;
+    margin-bottom: 0px;
+}
+.contacto{
+    padding-left: 55%;
+    padding-top: 250px;
+}
+form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.input-wrapper{
+    position: relative;
+    backdrop-filter: blur(7px);
+}
+input{
+    height: 42px;
+    width: 500px;
+    opacity: .5;
+    color: white;
+    border-radius: 10px;
+    border-style: none;    
+    margin-top: 12px;
+    padding-left: 32px;
+}
+input:focus{
+    opacity: .7;
+    border-color: #fff;
+    outline: none;
+    border-width: 2pt;
+}
+input:hover{
+    opacity: .7;
+}
+.input-icon{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+}
+input.message{
+    height: 120px;
+}
+.form-bttn{
+    margin-top: 12px;
+    width: 500px;
+}
+footer{
+    margin-top: 2300px;
+    background-color: #051E42;
+    width: 100%;
+}
+.footer{
+    height: 328px;
+    color: white;
+    padding-top: 30px;
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.links{
+    margin-bottom: 15px;
+}
+.redes{
+    display: flex;
+    flex-flow: column;
+    align-items: right;
+    justify-content:right;
+    text-align: right;
+    padding-right: 30px;
+    margin-right: 0;
+    justify-content: space-between;
+}
+.redes-icon{
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+    padding-left: 30px; 
+    margin-top: 20px; 
+}  
+.redes-icon:hover{
+    fill: #485CC7;
+}
+.hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .container {
+    max-width: 390px;
+  }
+  .menu{
+    width: 390px;
+    height: 100px;
+  }
+  .logo{
+    width: 100px;
+  }
+  .hidden{
+    display: flex;
+  }
+  .desktop-hidden{
+    display: none;
+  }
+  .above{
+    padding-top: 130px;
+  }
+  h1{
+    font-size: 25pt;
+    font-weight:bold;
+  }
+  h3{
+    font-size: 18pt;
+  }
+  .servicio{
+    margin-top: 110px;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    column-gap: 55px;
+  }
+  .card-wrapper{
+    height: 250px;
+  }
+  .card-tittle{
+    width: 360px;
+  }
+  .card-icon{
+    width: 25px;
+  }
+  .card-img{
+    width: 100%;
+    height: 100%;
+  }
+  .infra{
+    margin-top: 390px;
+    padding-top: 50px;
+  }
+  .cintillo{
+    flex-flow: column;
+    padding-left: 10px;
+  }
+  .clientes{
+    flex-flow: column;
+    padding-left: 20px;
+  }
+  .contacto{
+    padding-left: 5%;
+  }
+  input{
+    width: 380px;
+  }
+  .form-bttn{
+    width: 380px;
+  }
+}
