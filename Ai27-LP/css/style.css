@@ -382,6 +382,44 @@ footer{
     width: 390px;
     height: 100px;
   }
+  .box{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 0% 0% no-repeat padding-box padding-box rgba(100, 100, 100, 0.3);
+    backdrop-filter: blur(8px);
+    z-index: 3;
+}
+  .menu-mobile{
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    background-color:#051E42 ;
+    padding-top: 140px;
+    z-index: 4;
+    display: grid;
+    justify-content: space-around;
+    
+    background: 0% 0% no-repeat padding-box padding-box rgba(14, 33, 75, 0.8);
+    backdrop-filter: blur(20px);
+  }
+  .row{
+    display: flex;
+    flex-flow: row;
+  }
+  .options{
+    display:flex;
+    flex-flow: column;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.options2{
+    display: flexbox;
+    
+    justify-content: space-between;
+}
   .logo{
     width: 100px;
   }
@@ -402,7 +440,7 @@ footer{
     font-size: 18pt;
   }
   .servicio{
-    margin-top: 110px;
+    margin-top: 90px;
   }
   .cards{
     display: grid;
@@ -414,7 +452,7 @@ footer{
     height: 250px;
   }
   .card-tittle{
-    width: 360px;
+    width: 350px;
   }
   .card-icon{
     width: 25px;
@@ -424,24 +462,193 @@ footer{
     height: 100%;
   }
   .infra{
-    margin-top: 390px;
-    padding-top: 50px;
+    margin-top: 450px;
+    padding-top: 100px;
+  }
+  .banner{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
   }
   .cintillo{
-    flex-flow: column;
-    padding-left: 10px;
+    flex-flow: column; 
+    text-align: center;
+    padding-top: 70px;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .cintillo-btn{
+    margin-top: -200px;
+  }
+  .cintillo h1{
+    font-size: 18pt;
+  }
+  #Clients{
+    height: 200%;
   }
   .clientes{
     flex-flow: column;
     padding-left: 20px;
   }
+  .datos{
+    padding-top: 40px;
+  }
+  .counter{
+    text-align: center;
+  }
+  .num-txt{
+    margin-bottom: 50px;
+  }
+  .num{
+    font-size: 40pt;
+  }
+  .datos-txt{
+    font-size: 18pt;
+  }
+  .linea{
+    left: 74px;
+    top: 930px;
+    height: 170px;
+  }
+  .Contact{
+    margin-top: 1450px;
+  }
   .contacto{
     padding-left: 5%;
   }
+  .input-wrapper{
+    width: 389px;
+  }
   input{
-    width: 380px;
+    width: 389px;
+  }
+  form{
+    width: 389px;
   }
   .form-bttn{
-    width: 380px;
+    width: 389px;
   }
+ .redes{
+    text-align: center;
+ }
+ .redes-column{
+    align-items: center;
+    margin-top:50px;
+ }
+ .redes-icon{
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-right: 30px;
+ }
+  .footer{
+    padding-top: 100px;
+    flex-flow: column;
+  }
+  .espaciado{
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+    .container {
+      max-width: 370px;
+    }
+  .menu{
+      width: 370px;
+      height: 90px;
+      }
+  .input-wrapper{
+      width: 360px;
+  }
+  input{
+      width: 360px;
+  }
+  .form-bttn{
+      width: 360px;
+  }
+  }
+
+@media only screen and (max-width: 390px) {
+    .container {
+      max-width: 370px;
+    }
+  .menu{
+      width: 370px;
+      height: 90px;
+      }
+  .input-wrapper{
+      width: 360px;
+  }
+  input{
+      width: 360px;
+  }
+  .form-bttn{
+      width: 360px;
+  }
+  }
+  @media only screen and (max-width: 360px) {
+    .container {
+      max-width: 340px;
+    }
+  .menu{
+      width: 340px;
+      height: 90px;
+      }
+  .input-wrapper{
+      width: 340px;
+  }
+  input{
+      width: 330px;
+  }
+  .form-bttn{
+      width: 330px;
+  }
+  .servicio{
+      margin-top: 100px;
+  }
+  form{
+      width: 340px;
+  }
+  .linea{
+    left: 40px;
+    top: 800px;
+    height: 170px;
+  }
+  }
+@media only screen and (max-width: 350px) {
+    .container {
+      max-width: 310px;
+    }
+  .menu{
+      width: 310px;
+      height: 90px;
+      }
+  .input-wrapper{
+      width: 290px;
+  }
+  input{
+      width: 290px;
+  }
+  .form-bttn{
+      width: 290px;
+  }
+  }
+
+@media only screen and (max-width: 320px) {
+  .container {
+    max-width: 310px;
+  }
+.menu{
+    width: 310px;
+    height: 90px;
+    }
+.input-wrapper{
+    width: 290px;
+}
+input{
+    width: 290px;
+}
+.form-bttn{
+    width: 290px;
+}
 }
