@@ -710,6 +710,10 @@ input{
 .card-tittle{
   width: 330px;
 }
+.linea{
+  left: 60px;
+  top: 870px;
+}
 }
 
 @media only screen and (max-width: 390px) {
@@ -728,6 +732,13 @@ input{
 }
 .form-bttn{
     width: 360px;
+}
+.infra{
+  margin-top: 400px;
+}
+.linea{
+  left: 50px;
+  top: 790px;
 }
 }
 @media only screen and (max-width: 360px) {
@@ -752,6 +763,9 @@ input{
 }
 form{
     width: 340px;
+}
+.infra{
+  margin-top: 240;
 }
 .linea{
   left: 40px;
