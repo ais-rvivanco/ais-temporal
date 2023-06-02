@@ -393,7 +393,124 @@ footer{
   display: none;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 1620px) {
+.container {
+  max-width: 1300px;
+}
+.logo{
+  width: 110px;
+}
+.menu{
+  width: 1300px;
+  height: 100px;
+  }
+
+.servicio{
+  margin-top: 100px;
+}
+form{
+  width: 340px;
+}
+.linea{
+left: 40px;
+top: 800px;
+height: 170px;
+}
+.infra{
+margin-top: 250px;
+}
+.cintillo h1{
+font-size: 30pt;
+}
+.linea{
+left: 950px;
+top: 400px;
+height: 22%;
+}
+.timeline{
+width: 360px;
+}
+#clients{
+height: 140%;
+}
+#cntc{
+height: 140%;
+}
+.card-tittle{
+width: 585px;
+}
+.btn-ser{
+display: none;
+}
+}
+
+@media only screen and (max-width: 1520px) {
+.container {
+  max-width: 1300px;
+}
+.menu{
+  width: 1300px;
+  height: 100px;
+  }
+
+.servicio{
+  margin-top: 100px;
+}
+form{
+  width: 340px;
+}
+.linea{
+left: 40px;
+top: 800px;
+height: 170px;
+}
+}
+
+@media only screen and (max-width: 1366px) {
+.container {
+  max-width: 1150px;
+}
+.menu{
+  width: 1150px;
+  height: 100px;
+  }
+
+.servicio{
+  margin-top: 100px;
+}
+form{
+  width: 340px;
+}
+.linea{
+left: 40px;
+top: 800px;
+height: 170px;
+}
+}
+
+@media only screen and (max-width: 1280px) {
+.container {
+  max-width: 1170px;
+}
+.menu{
+  width: 1150px;
+  height: 100px;
+  }
+
+.servicio{
+  margin-top: 100px;
+}
+form{
+  width: 340px;
+}
+.linea{
+left: 40px;
+top: 800px;
+height: 170px;
+}
+}
+
+@media only screen and (max-width: 431px) {
 .container {
   max-width: 390px;
 }
@@ -458,7 +575,7 @@ h3{
   font-size: 18pt;
 }
 .servicio{
-  margin-top: 90px;
+  margin-top: 170px;
 }
 .cards{
   display: grid;
@@ -560,13 +677,14 @@ form{
   padding-right: 30px;
 }
 .footer{
-  padding-top: 100px;
+  padding-top: 300px;
   flex-flow: column;
 }
 .espaciado{
   display: none;
 }
 }
+
 @media only screen and (max-width: 400px) {
   .container {
     max-width: 370px;
@@ -671,121 +789,3 @@ input{
 }
 }
 
-
-
-@media only screen and (max-width: 1520px) {
-.container {
-  max-width: 1300px;
-}
-.menu{
-  width: 1300px;
-  height: 100px;
-  }
-
-.servicio{
-  margin-top: 100px;
-}
-form{
-  width: 340px;
-}
-.linea{
-left: 40px;
-top: 800px;
-height: 170px;
-}
-}
-
-@media only screen and (max-width: 1620px) {
-.container {
-  max-width: 1300px;
-}
-.logo{
-  width: 110px;
-}
-.menu{
-  width: 1300px;
-  height: 100px;
-  }
-
-.servicio{
-  margin-top: 100px;
-}
-form{
-  width: 340px;
-}
-.linea{
-left: 40px;
-top: 800px;
-height: 170px;
-}
-.infra{
-margin-top: 250px;
-}
-.cintillo h1{
-font-size: 30pt;
-}
-.linea{
-left: 950px;
-top: 400px;
-height: 22%;
-}
-.timeline{
-width: 360px;
-}
-#clients{
-height: 140%;
-}
-#cntc{
-height: 140%;
-}
-.card-tittle{
-width: 585px;
-}
-.btn-ser{
-display: none;
-}
-}
-
-@media only screen and (max-width: 1366px) {
-.container {
-  max-width: 1150px;
-}
-.menu{
-  width: 1150px;
-  height: 100px;
-  }
-
-.servicio{
-  margin-top: 100px;
-}
-form{
-  width: 340px;
-}
-.linea{
-left: 40px;
-top: 800px;
-height: 170px;
-}
-}
-
-@media only screen and (max-width: 1280px) {
-.container {
-  max-width: 1170px;
-}
-.menu{
-  width: 1150px;
-  height: 100px;
-  }
-
-.servicio{
-  margin-top: 100px;
-}
-form{
-  width: 340px;
-}
-.linea{
-left: 40px;
-top: 800px;
-height: 170px;
-}
-}
