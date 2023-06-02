@@ -188,7 +188,7 @@ top:50%;
 display: none;
 }
 .show{
-display: flex;
+display: block;
 }
 .infra{
   max-width: 1520px;
@@ -668,5 +668,98 @@ input{
 }
 .form-bttn{
   width: 290px;
+}
+}
+
+
+
+@media only screen and (max-width: 1520px) {
+.container {
+  max-width: 1300px;
+}
+.menu{
+  width: 1300px;
+  height: 100px;
+  }
+
+.servicio{
+  margin-top: 100px;
+}
+form{
+  width: 340px;
+}
+.linea{
+left: 40px;
+top: 800px;
+height: 170px;
+}
+}
+
+@media only screen and (max-width: 1620px) {
+.container {
+  max-width: 1300px;
+}
+.logo{
+  width: 110px;
+}
+.menu{
+  width: 1300px;
+  height: 100px;
+  }
+
+.servicio{
+  margin-top: 100px;
+}
+form{
+  width: 340px;
+}
+.linea{
+left: 40px;
+top: 800px;
+height: 170px;
+}
+}
+
+@media only screen and (max-width: 1366px) {
+.container {
+  max-width: 1150px;
+}
+.menu{
+  width: 1150px;
+  height: 100px;
+  }
+
+.servicio{
+  margin-top: 100px;
+}
+form{
+  width: 340px;
+}
+.linea{
+left: 40px;
+top: 800px;
+height: 170px;
+}
+}
+
+@media only screen and (max-width: 1280px) {
+.container {
+  max-width: 1170px;
+}
+.menu{
+  width: 1150px;
+  height: 100px;
+  }
+
+.servicio{
+  margin-top: 100px;
+}
+form{
+  width: 340px;
+}
+.linea{
+left: 40px;
+top: 800px;
+height: 170px;
 }
 }
