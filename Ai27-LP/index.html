@@ -62,15 +62,17 @@
                     <h1>Servicio de seguridad integral</h1>
                 </div>
                 <div class="cards">
-                    <div class="card-wrapper 1">
+                    <div id="card" class="card-wrapper">
                         <img class="card-img" src="assets/Card- Plan de Seguridad.png" alt="Monitoreo Inteligente">
-                        <div class="card-tittle">
-                            <div class="card-icon-tittle">
-                                <img class="card-icon" src="assets/Icon metro-eye.svg" alt="Ícono de ojo monitoreando">
-                                <h2>Monitoreo inteligente</h2>
+                        <div class="card-container">
+                            <div class="card-tittle">
+                                <div class="card-icon-tittle">
+                                    <img class="card-icon" src="assets/Icon metro-eye.svg" alt="Ícono de ojo monitoreando">
+                                    <h2>Monitoreo inteligente</h2>
+                                </div>    
+                                <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                             </div>    
-                            <img class="rotation" style="width: 7px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
-                            <div class="card-txt" hidden>
+                            <div id="content" class="card-txt">
                                 <p>Integrado por web service de forma autónoma con Sofía
                                     o tradicional personal por medio de GPS desechable, portátil o fijo.  </p>
                             </div>                          
@@ -78,14 +80,16 @@
                     </div>
                     <div class="card-wrapper 2">
                         <img class="card-img" src="assets/3. Monitoreo Tiempo Real 24-7.png" alt="Monitoreo Inteligente">
-                        <div class="card-tittle">
-                            <div class="card-icon-tittle">
-                                <img class="card-icon" src="assets/Icon awesome-route.svg" alt="Ícono de ojo monitoreando">
-                                <h2>Custodias en Ruta</h2>
-                            </div>    
-                            <img class="rotation" style="width: 7px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
-                        </div>
-                        <div class="card-txt" hidden>
+                        <div class="card-container">
+                            <div class="card-tittle">
+                                <div class="card-icon-tittle">
+                                    <img class="card-icon" src="assets/Icon awesome-route.svg" alt="Ícono de ojo monitoreando">
+                                    <h2>Custodias en Ruta</h2>
+                                </div>    
+                                <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
+                            </div>
+                        </div>    
+                        <div class="card-txt">
                             <p>Acompañamiento a todo tu viaje en local o foráneo <br>
                                 Acompañamiento en primeros y últimos km de tu viaje (L.F.L.).</p>
                         </div>     
@@ -97,9 +101,9 @@
                                 <img class="card-icon" src="assets/Icon simple-drone.svg" alt="Ícono de ojo monitoreando">
                                 <h2>Equipo de Reacción</h2>
                             </div>    
-                            <img class="rotation" style="width: 7px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
+                            <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                         </div>
-                        <div class="card-txt" hidden>
+                        <div class="card-txt">
                             <ul>
                                 <li>+200 unidades en campo </li>
                                 <li>Coordinación por vectores estratégicos</li>
@@ -115,9 +119,9 @@
                                 <img class="card-icon" src="assets/Logo-ais-blanco.svg" alt="Ícono de ojo monitoreando">
                                 <h2>Ais - Secure Mobility</h2>
                             </div>    
-                            <img class="rotation" style="width: 1px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
+                            <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                         </div>
-                        <div class="card-txt" hidden>
+                        <div class="card-txt">
                             <p>Herramienta digital autónoma, la cual brinda protección y seguridad para mercancía y embarques por medio de una plataforma online a costos accesibles.</p>
                         </div>     
                     </div>
@@ -269,9 +273,14 @@
         },    
         ease:Circ.easeOut
         });
-}
+        }
 
-count();
-        </script>    
+    count();
+
+    document.getElementById("card").onclick = function() {myFunction()};
+    function myFunction() {
+    document.getElementById("content").classList.toggle("show");
+    }
+    </script>    
 </body>
 </html>
