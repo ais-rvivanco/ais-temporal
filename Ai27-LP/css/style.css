@@ -584,10 +584,13 @@ h3{
   column-gap: 55px;
 }
 .card-wrapper{
-  height: 250px;
+  height: 200px;
 }
 .card-tittle{
   width: 350px;
+}
+.card-icon-tittle h2{
+  font-size: 18pt;
 }
 .card-icon{
   width: 25px;
@@ -597,8 +600,7 @@ h3{
   height: 100%;
 }
 .infra{
-  margin-top: 450px;
-  padding-top: 100px;
+  margin-top: 200px;
 }
 .banner{
   text-align: center;
@@ -701,6 +703,12 @@ input{
 }
 .form-bttn{
     width: 360px;
+}
+.card-wrapper{
+  height: 200px;
+}
+.card-tittle{
+  width: 330px;
 }
 }
 
