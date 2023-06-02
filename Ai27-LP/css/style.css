@@ -718,6 +718,32 @@ left: 40px;
 top: 800px;
 height: 170px;
 }
+.infra{
+margin-top: 250px;
+}
+.cintillo h1{
+font-size: 30pt;
+}
+.linea{
+left: 950px;
+top: 400px;
+height: 22%;
+}
+.timeline{
+width: 360px;
+}
+#clients{
+height: 140%;
+}
+#cntc{
+height: 140%;
+}
+.card-tittle{
+width: 585px;
+}
+.btn-ser{
+display: none;
+}
 }
 
 @media only screen and (max-width: 1366px) {
