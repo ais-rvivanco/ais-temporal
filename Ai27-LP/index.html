@@ -23,11 +23,11 @@
                     <div class="option">
                         <h2 class="desktop-hidden"><a href="#">Blog</a></h2>
                         <a href="ais-secure.com"><img class="desktop-hidden" style="margin-left:50px" src="assets/Logo-ais-blanco.svg" alt="Artificial Intelligence - Mobility Secure"></a>
-                        <img class="hidden" src="assets/Icon feather-menu.svg" alt="">
+                        <div class="hamburguer"><img class="hidden" src="assets/Icon feather-menu.svg" alt=""></div>
                     </div>   
                 </menu>
             </div>
-            <div hidden>
+            <div id="navega" hidden>
                 <div class="box"></div>
                 <div class="menu-mobile">
                     <div class="options">
@@ -74,8 +74,8 @@
                                 <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                             </div>    
                             <div id="Content" class="card-txt">
-                                <p>Integrado por web service de forma autónoma con Sofía
-                                    o tradicional personal por medio de GPS desechable, portátil o fijo.  </p>
+                                <p>Para ofrecerte el mejor monitoreo posible de tus unidades, nos integramos por web service para recibir la señal de tu GPS ya sea desechable, portátil o fijo. De esta manera podemos monitorear tus viajes de forma autónoma con Sofia, nuestro gemelo digital o mediante una estación de monitoreo con personal dedicado. 
+                                    Si necesitas adquirir dispositivos de gps o cualquier otro aditamento de seguridad, nosotros podemos cotizarlo.</p>
                             </div>                          
                         </div>          
                     </div>
@@ -91,7 +91,15 @@
                             </div>
                         </div>    
                         <div class="card-txt">
-                            <p>Recuperación de tractos y unidades incluidas en <br> póliza de seguro con alianzas estratégicas.</p>
+                            <p>Servicio de recuperación de tractos y unidades incluido en tu póliza de seguro. Esto lo ejecutamos a través de alianzas estratégicas:
+
+                                (Listado de Aseguradoras es que se tiene pactado ainsurance)
+                                
+                                - opción 1
+                                
+                                -opción 2
+                                
+                                -opción 3</p>
                         </div>     
                     </div>
                     <div class="card-wrapper 3">
@@ -99,17 +107,18 @@
                         <div class="card-tittle">
                             <div class="card-icon-tittle">
                                 <img class="card-icon" src="assets/Icon simple-drone.svg" alt="Ícono de ojo monitoreando">
-                                <h2>Equipo de Reacción</h2>
+                                <h2>Cobertura en ruta</h2>
                             </div>    
                             <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                         </div>
                         <div class="card-txt">
-                            <ul>
-                                <li>+200 unidades en campo </li>
-                                <li>Coordinación por vectores estratégicos</li>
-                                <li>Drones</li>
-                                <li>Vinculación con las autoridades</li>
-                            </ul>
+                            <p>Contamos con:
+                                Más de 2,000 unidades en campo
+                                Nos coordinamos por vectores estratégicos
+                                Realizamos seguimiento con drones
+                                Contamos con vinculación directa con autoridades
+                                Acompañamiento a todo tu viaje en local o foráneo
+                                Acompañamiento en primeros y últimos km de tu viaje (L.F.L.)</p>
                         </div>     
                     </div>
                     <div class="card-wrapper 4">
@@ -117,7 +126,7 @@
                         <div class="card-tittle">
                             <div class="card-icon-tittle">
                                 <img class="card-icon" src="assets/Logo-ais-blanco.svg" alt="Ícono de ojo monitoreando">
-                                <h2>Ais - Secure Mobility</h2>
+                                <h2>Plataforma digital</h2>
                             </div>    
                             <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                         </div>
@@ -281,6 +290,11 @@
     function myFunction() {
     document.getElementById("Content").classList.toggle("show");
     }
+
+    document.getElementById("hamburguer").addEventListener("click",function(){
+  
+    document.getElementById("navega").classList.toggle("show");
+    });
     </script>    
 </body>
 </html>
