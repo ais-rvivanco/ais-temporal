@@ -1,39 +1,51 @@
-let slideIndex = 0;
-showSlides();
+<script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4500);
+        }
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 4000);
-}
+        function count(){
+        var counter = { var: 0 };
+        TweenMax.to(counter, 3, {
+            var: 100, 
+    
+        onUpdate: function () {
+        var number = Math.ceil(counter.var);
+        $('.counter').html(number);
+        if(number === counter.var){ count.kill(); }
+        },
+ 
+        onComplete: function(){
+        count();
+        },    
+        ease:Circ.easeOut
+        });
+        }
 
-var clic = 1;
+    count();
 
-function divLogin(){ 
+    document.getElementById("Card").onclick = function() {myFunction()};
+    function myFunction() {
+    document.getElementById("Content").classList.toggle("show");
+    }
 
-   if(clic==1){
-
-   document.getElementById("caja").style.height = "100px";
-
-   clic = clic + 1;
-
-   } else{
-
-       document.getElementById("caja").style.height = "0px";      
-
-    clic = 1;
-
-   }   
-
-}
+    document.getElementById("hamburguer").addEventListener("click",function(){
+  
+    document.getElementById("navega").classList.toggle("show");
+    });
+    </script> 
