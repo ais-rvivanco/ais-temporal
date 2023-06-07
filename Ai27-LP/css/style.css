@@ -698,7 +698,18 @@ form{
   display: none;
 }
 }
-
+@media only screen and (max-width: 420px) {
+.linea{
+  top:910px;
+  left: 75px;
+}
+}
+@media only screen and (max-width: 414px) {
+.linea{
+  top:900px;
+  left: 70px;
+}
+}
 @media only screen and (max-width: 410px) {
   .container {
     max-width: 370px;
@@ -785,9 +796,7 @@ input{
 .form-bttn{
     width: 330px;
 }
-.servicio{
-    margin-top: 100px;
-}
+
 form{
     width: 340px;
 }
@@ -798,8 +807,8 @@ form{
   width: ;
 }
 .linea{
-  left: 40px;
-  top: 800px;
+  left: 45px;
+  top: 790px;
   height: 170px;
 }
 .cintillo h1{
@@ -807,6 +816,9 @@ form{
 }
 .cintillo-btn{
   margin-top: -170px;
+}
+.timeline-mob{
+  width: 330px ;
 }
 }
 @media only screen and (max-width: 350px) {
