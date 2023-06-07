@@ -587,7 +587,7 @@ h3{
   font-size: 18pt;
 }
 .servicio{
-  margin-top: 170px;
+  margin-top: 30px;
 }
 .cards{
   display: grid;
@@ -612,7 +612,7 @@ h3{
   height: 100%;
 }
 .infra{
-  margin-top: 400px;
+  margin-top: 200px;
 }
 .banner{
   text-align: center;
@@ -713,6 +713,12 @@ form{
 input{
     width: 360px;
 }
+.servicio{
+  margin-top: 100px;
+}
+.timeline-mob{
+  width: 370px;
+}
 .form-bttn{
     width: 360px;
 }
@@ -722,9 +728,12 @@ input{
 .card-tittle{
   width: 330px;
 }
+.infra{
+  margin-top: 200px;
+}
 .linea{
-  left: 60px;
-  top: 870px;
+  left: 68px;
+  top: 855px;
 }
 .cintillo h1{
   margin-top: -30px;
@@ -752,11 +761,11 @@ input{
     width: 360px;
 }
 .infra{
-  margin-top: 400px;
+  margin-top: 300px;
 }
 .linea{
-  left: 50px;
-  top: 790px;
+  left: 60px;
+  top: 850px;
 }
 }
 @media only screen and (max-width: 360px) {
