@@ -615,7 +615,7 @@ h3{
   column-gap: 55px;
 }
 .card-wrapper{
-  height: 240px;
+  height: 250px;
 }
 .card-tittle{
   width: 350px;
@@ -631,7 +631,8 @@ h3{
   height: 100%;
 }
 .card-txt{
-  font-family: N-regular;
+ 
+  font-weight: lighter;
   font-size: 12pt;
   }
 .infra{
