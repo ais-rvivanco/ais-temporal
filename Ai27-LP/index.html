@@ -63,55 +63,59 @@
                     <h1>Servicio de seguridad integral</h1>
                 </div>
                 <div class="cards">
-                    <div id="Card" class="card-wrapper">
+                    <div id="Card" class="card-wrapper" onclick="card()">
                         <img class="card-img" src="assets/Card- Plan de Seguridad.png" alt="Monitoreo Inteligente">
                         <div class="card-container">
-                            <div class="card-tittle">
-                                <div class="card-icon-tittle">
-                                    <img class="card-icon" src="assets/Icon metro-eye.svg" alt="Ícono de ojo monitoreando">
-                                    <h2>Monitoreo inteligente</h2>
-                                </div>    
-                                <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
+                            <div id="miDiv" class="card-tittle">
+                                <div class="crd">
+                                    <div class="card-icon-tittle">
+                                        <img class="card-icon" src="assets/Icon metro-eye.svg" alt="Ícono de ojo monitoreando">
+                                        <h2>Monitoreo inteligente</h2>
+                                    </div>    
+                                    <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
+                                </div>
                             </div>    
                             <div id="Content" class="card-txt">
-                                <p>Para ofrecerte el mejor monitoreo posible de tus unidades, nos integramos por web service para recibir la señal de tu GPS ya sea desechable, portátil o fijo. De esta manera podemos monitorear tus viajes de forma autónoma con Sofia, nuestro gemelo digital o mediante una estación de monitoreo con personal dedicado. 
-                                    Si necesitas adquirir dispositivos de gps o cualquier otro aditamento de seguridad, nosotros podemos cotizarlo.</p>
+                                <p>Para ofrecerte el mejor monitoreo posible de tus unidades, nos integramos por web service para recibir la señal de tu GPS ya sea desechable, portátil o fijo. <br> <br> De esta manera podemos monitorear tus viajes de forma autónoma con Sofia, nuestro gemelo digital o mediante una estación de monitoreo con personal dedicado. 
+                                    <br> Si necesitas adquirir dispositivos de gps o cualquier otro aditamento de seguridad, nosotros podemos cotizarlo.</p>
                             </div>                          
                         </div>          
                     </div>
-                    <div class="card-wrapper 2">
+                    <div class="card-wrapper 2" onclick="cambiarTamaño1()">
                         <img class="card-img" src="assets/3. Monitoreo Tiempo Real 24-7.png" alt="Monitoreo Inteligente">
                         <div class="card-container">
-                            <div class="card-tittle">
-                                <div class="card-icon-tittle">
-                                    <img style="width:150px; height:25px; padding-right: 20px; padding-top: 5px;" src="assets/LOGO_AINSURANCE-01-blanco.png" alt="Logo Ainsurance">
-                                    <h2></h2>
+                            <div id="miDiv1" class="card-tittle">
+                                <div class="crd">
+                                    <div class="card-icon-tittle">
+                                        <img style="width:140px; padding-right: 20px; padding-top: 5px;" src="assets/LOGO_AINSURANCE-01-blanco.png" alt="Logo Ainsurance">
+                                        <h2></h2>
+                                    </div>    
+                                    <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                                 </div>    
-                                <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                             </div>
                         </div>    
-                        <div class="card-txt">
+                        <div id="Content" class="card-txt">
                             <p>Servicio de recuperación de tractos y unidades incluido en tu póliza de seguro. Esto lo ejecutamos a través de alianzas estratégicas:
-
-                                (Listado de Aseguradoras es que se tiene pactado ainsurance)
-                                
-                                -opción 1
-                                
-                                -opción 2
-                                
-                                -opción 3</p>
+                                <ul>
+                                    <li>Opción 1</li>
+                                    <li>Opción 2</li>
+                                    <li>Opción 3</li>
+                                </ul>
+                                </p>
                         </div>     
                     </div>
-                    <div class="card-wrapper 3">
+                    <div class="card-wrapper 3" onclick="cambiarTamaño2()">
                         <img class="card-img" src="assets/5. Contamos con más de 2mil elementos en campo.png" alt="Monitoreo Inteligente">
-                        <div class="card-tittle">
-                            <div class="card-icon-tittle">
-                                <img class="card-icon" src="assets/Icon simple-drone.svg" alt="Ícono de ojo monitoreando">
-                                <h2>Cobertura en ruta</h2>
+                        <div id="miDiv2" class="card-tittle">
+                            <div class="crd">
+                                <div class="card-icon-tittle">
+                                    <img class="card-icon" src="assets/Icon simple-drone.svg" alt="Ícono de ojo monitoreando">
+                                    <h2>Cobertura en ruta</h2>
+                                </div>    
+                                <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                             </div>    
-                            <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                         </div>
-                        <div class="card-txt">
+                        <div id="Content" class="card-txt">
                             <p>Contamos con:
                                 Más de 2,000 unidades en campo
                                 Nos coordinamos por vectores estratégicos
@@ -121,16 +125,18 @@
                                 Acompañamiento en primeros y últimos km de tu viaje (L.F.L.)</p>
                         </div>     
                     </div>
-                    <div class="card-wrapper 4">
+                    <div class="card-wrapper 4" onclick="cambiarTamaño3()">
                         <img class="card-img" src="assets/AiS-AI.png" alt="Monitoreo Inteligente">
-                        <div class="card-tittle">
-                            <div class="card-icon-tittle">
-                                <img class="card-icon" src="assets/Logo-ais-blanco.svg" alt="Ícono de ojo monitoreando">
-                                <h2>Plataforma digital</h2>
+                        <div id="miDiv3" class="card-tittle">
+                            <div class="crd">
+                                <div class="card-icon-tittle">
+                                    <img class="card-icon" src="assets/Logo-ais-blanco.svg" alt="Ícono de ojo monitoreando">
+                                    <h2>Plataforma digital</h2>
+                                </div>    
+                                <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                             </div>    
-                            <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                         </div>
-                        <div class="card-txt">
+                        <div id="Content" class="card-txt">
                             <p>Herramienta digital autónoma, la cual brinda protección y seguridad para mercancía y embarques por medio de una plataforma online a costos accesibles.</p>
                         </div>     
                     </div>
@@ -172,7 +178,7 @@
                     <img class="desktop-hidden timeline" style="width: 560px;" src="assets/time-line.png" alt="">
                     <img class="hidden timeline-mob" src="assets/time-line-mobile.png" alt="">
                     <div class="datos">
-                        <div class="num-txt"><p class="num counter"><FONT color="#A20067">+</FONT>25</p><p class="datos-txt">años de<br>trayectoria</p></div>
+                        <div class="num-txt"><p id="contador" class="num counter"><FONT color="#A20067">+</FONT>25</p><p class="datos-txt">años de<br>trayectoria</p></div>
                         <div class="num-txt"><p class="num counter"><FONT color="#A20067">+</FONT>11,700</p><p class="datos-txt">líneas de<br>transporte</p></div>
                         <div class="num-txt"><p class="num counter"><FONT color="#A20067">+</FONT>250</p><p class="datos-txt">clientes<br>AAA</p></div>
                         <img class="linea" src="assets/linea.png" alt="">
@@ -245,6 +251,109 @@
             </div>
         </footer>
     </div>
-       
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4500);
+        }
+
+        
+
+        function count(){
+        var counter = { var: 0 };
+        TweenMax.to(counter, 3, {
+            var: 100, 
+    
+        onUpdate: function () {
+        var number = Math.ceil(counter.var);
+        $('.counter').html(number);
+        if(number === counter.var){ count.kill(); }
+        },
+        
+        onComplete: function(){
+        count();
+        },    
+        ease:Circ.easeOut
+        });
+        }
+
+    count();
+
+    document.getElementById("Card").onclick = function() {myFunction()};
+    function myFunction() {
+    document.getElementById("Content").classList.toggle("show");
+    }
+
+    document.getElementById("hamburguer").addEventListener("click",function(){
+  
+    document.getElementById("navega").classList.toggle("show");
+    });
+
+    function card(){
+        cambiarTamaño();
+        toggleDiv();
+    }
+    function cambiarTamaño(){
+        var div = document.getElementById("miDiv");
+        if (div.style.height === "347px"){
+            div.style.height = "90px";
+        }
+        else {
+            div.style.height = "347px";     
+        }
+    }
+    function cambiarTamaño1(){
+        var div = document.getElementById("miDiv1");
+        if (div.style.height === "347px"){
+            div.style.height = "90px";
+        }
+        else {
+            div.style.height = "347px";     
+        }
+    }
+    function cambiarTamaño2(){
+        var div = document.getElementById("miDiv2");
+        if (div.style.height === "347px"){
+            div.style.height = "90px";
+        }
+        else {
+            div.style.height = "347px";     
+        }
+    }
+    function cambiarTamaño3(){
+        var div = document.getElementById("miDiv3");
+        if (div.style.height === "347px"){
+            div.style.height = "90px";
+        }
+        else {
+            div.style.height = "347px";     
+        }
+    }
+    
+    function toggleDiv(){
+        var div = document.getElementById("Content");
+        if (div.style.display === "none"){
+            div.style.display = "block";
+        }
+        else {
+            div.style.display = "none";
+        }
+    }
+    </script>    
 </body>
 </html>
