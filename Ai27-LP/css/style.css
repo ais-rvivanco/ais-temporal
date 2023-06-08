@@ -175,7 +175,7 @@ transform: rotate(90deg);
   width: 692px;
   background: 0% 0% no-repeat padding-box padding-box rgba(100, 100, 100, 0.3);
   backdrop-filter: blur(30px);
-  text-align: center;
+  text-align: left;
   justify-content: space-between;
   align-items: center;
   padding-left: 20px;
@@ -208,11 +208,10 @@ margin: 0 auto;
 position: absolute;
 top: 25%;  
 padding: 30px;
-font-size: 13pt;
+font-size: 15pt;
 }
-#Content{
-display: none;
-}
+
+
 .show{
 display: block;
 }

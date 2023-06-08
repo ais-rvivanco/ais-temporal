@@ -81,7 +81,7 @@
                             </div>                          
                         </div>          
                     </div>
-                    <div class="card-wrapper 2" onclick="cambiarTamaño1()">
+                    <div id="Card" class="card-wrapper 2" onclick="card1()">
                         <img class="card-img" src="assets/3. Monitoreo Tiempo Real 24-7.png" alt="Monitoreo Inteligente">
                         <div class="card-container">
                             <div id="miDiv1" class="card-tittle">
@@ -94,7 +94,7 @@
                                 </div>    
                             </div>
                         </div>    
-                        <div id="Content" class="card-txt">
+                        <div id="Content1" style="display: none;" class="card-txt">
                             <p>Servicio de recuperación de tractos y unidades incluido en tu póliza de seguro. Esto lo ejecutamos a través de alianzas estratégicas:
                                 <ul>
                                     <li>Opción 1</li>
@@ -104,7 +104,7 @@
                                 </p>
                         </div>     
                     </div>
-                    <div class="card-wrapper 3" onclick="cambiarTamaño2()">
+                    <div id="Card" class="card-wrapper 3" onclick="card2()">
                         <img class="card-img" src="assets/5. Contamos con más de 2mil elementos en campo.png" alt="Monitoreo Inteligente">
                         <div id="miDiv2" class="card-tittle">
                             <div class="crd">
@@ -115,7 +115,7 @@
                                 <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                             </div>    
                         </div>
-                        <div id="Content" class="card-txt">
+                        <div id="Content2" style="display: none;" class="card-txt">
                             <p>Contamos con:
                                 Más de 2,000 unidades en campo
                                 Nos coordinamos por vectores estratégicos
@@ -125,7 +125,7 @@
                                 Acompañamiento en primeros y últimos km de tu viaje (L.F.L.)</p>
                         </div>     
                     </div>
-                    <div class="card-wrapper 4" onclick="cambiarTamaño3()">
+                    <div id="Card" class="card-wrapper 4" onclick="card3()">
                         <img class="card-img" src="assets/AiS-AI.png" alt="Monitoreo Inteligente">
                         <div id="miDiv3" class="card-tittle">
                             <div class="crd">
@@ -136,7 +136,7 @@
                                 <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                             </div>    
                         </div>
-                        <div id="Content" class="card-txt">
+                        <div id="Content3" style="display: none;" class="card-txt">
                             <p>Herramienta digital autónoma, la cual brinda protección y seguridad para mercancía y embarques por medio de una plataforma online a costos accesibles.</p>
                         </div>     
                     </div>
@@ -160,12 +160,6 @@
                       <img class="hidden" src="assets/img-slider3-mobile.jpg" style="width:100%" alt="Monitoreamos más de 3,000 viajes diarios recopilando cientos de miles de datos en tiempo real">
                     </div>
                 </div>
-                <div class="dot-counter" style="text-align:center">
-                    <span class="dot"></span> 
-                    <span class="dot"></span> 
-                    <span class="dot"></span> 
-                  </div>   
-                
             </section>
             <section class="banner">
                 <div class="cintillo">
@@ -305,9 +299,23 @@
     });
 
     function card(){
-        cambiarTamaño();
         toggleDiv();
+        cambiarTamaño();
     }
+    function card1(){
+        toggleDiv1();
+        cambiarTamaño1();
+    }
+    function card2(){
+        toggleDiv2();
+        cambiarTamaño2();
+    }
+    function card3(){
+        toggleDiv3();
+        cambiarTamaño3();
+    }
+
+
     function cambiarTamaño(){
         var div = document.getElementById("miDiv");
         if (div.style.height === "347px"){
@@ -344,14 +352,42 @@
             div.style.height = "347px";     
         }
     }
-    
+
+
     function toggleDiv(){
         var div = document.getElementById("Content");
-        if (div.style.display === "none"){
-            div.style.display = "block";
+        if (div.style.display === "block"){
+            div.style.display = "none";
         }
         else {
+            div.style.display = "block";
+        }
+    }
+    function toggleDiv1(){
+        var div = document.getElementById("Content1");
+        if (div.style.display === "block"){
             div.style.display = "none";
+        }
+        else {
+            div.style.display = "block";
+        }
+    }
+    function toggleDiv2(){
+        var div = document.getElementById("Content2");
+        if (div.style.display === "block"){
+            div.style.display = "none";
+        }
+        else {
+            div.style.display = "block";
+        }
+    }
+    function toggleDiv3(){
+        var div = document.getElementById("Content3");
+        if (div.style.display === "block"){
+            div.style.display = "none";
+        }
+        else {
+            div.style.display = "block";
         }
     }
     </script>    
