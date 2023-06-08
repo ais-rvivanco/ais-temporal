@@ -23,7 +23,7 @@
                     <div class="option">
                         <h2 class="desktop-hidden"><a href="#">Blog</a></h2>
                         <a href="ais-secure.com"><img class="desktop-hidden" style="margin-left:50px" src="assets/Logo-ais-blanco.svg" alt="Artificial Intelligence - Mobility Secure"></a>
-                        <div id="hamburguer" class="hamburguer"><img id="hamburguer" class="hidden" src="assets/Icon feather-menu.svg" alt=""></div>
+                        <div clickon="toggleMenu()" id="hamburguer" class="hamburguer"><img class="hidden" src="assets/Icon feather-menu.svg" alt=""></div>
                     </div>   
                 </menu>
             </div>
@@ -290,6 +290,17 @@
   
     document.getElementById("navega").classList.toggle("show");
     });
+
+
+    function toggleMenu(){
+        var div = document.getElementById("navega");
+        if (div.style.display === "block"){
+            div.style.display = "none";
+        }
+        else {
+            div.style.display = "block";
+        }
+    }
 
     function card(){
         toggleDiv();
