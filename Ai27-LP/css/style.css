@@ -213,7 +213,7 @@ transform: rotate(90deg);
 .card-txt{
 margin: 0 auto;
 position: absolute;
-top: 25%;  
+top: 20%;  
 padding: 30px;
 font-size: 15pt;
 }
@@ -900,4 +900,3 @@ input{
   width: 290px;
 }
 }
-
