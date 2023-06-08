@@ -32,8 +32,12 @@ body{
   color: white;
 }
 @font-face {
-  font-family: myFirstFont;
-  src: url(C:\Users\gdferrusca\wamp64\www\Ai27-LP\fonts\TTNorms-Light.otf);
+  font-family: N-light;
+  src: url(fonts/TTNorms-Light.otf);
+}
+@font-face {
+  font-family: N-regular;
+  src: url(fonts/TTNorms-Regular.otf);
 }
 .container{
   max-width: 1520px;
@@ -627,6 +631,7 @@ h3{
   height: 100%;
 }
 .card-txt{
+  font-family: N-regular;
   font-size: 12pt;
   }
 .infra{
