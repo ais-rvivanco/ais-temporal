@@ -210,6 +210,9 @@ transform: rotate(90deg);
 .card-container{
 
 }
+.btn-card{
+  margin-top: 20px;
+}
 .card-txt{
 margin: 0 auto;
 position: absolute;
