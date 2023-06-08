@@ -626,6 +626,9 @@ h3{
   width: 100%;
   height: 100%;
 }
+.card-txt{
+  font-size: 12pt;
+  }
 .infra{
   margin-top: 200px;
 }
