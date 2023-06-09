@@ -358,7 +358,7 @@ input{
   height: 42px;
   width: 500px;
   opacity: .5;
-  color: white;
+  color:rgba(0, 0, 0, 0.306);
   border-radius: 10px;
   border-style: none;    
   margin-top: 12px;
