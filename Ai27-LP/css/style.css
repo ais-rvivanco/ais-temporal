@@ -154,10 +154,12 @@ h1{
   border: none;
 }
 .crd{
-top: 30px;
-position: fixed;
-width:100%;
-
+  top: 30px;
+  position: fixed;
+  width:100%;
+  }
+.btn-card:hover{
+  background-color: rgba(100, 100, 100, 0.3);
 }
 .icon-more{
   display: none;
@@ -425,7 +427,7 @@ footer{
   display: none;
 }
 .message-form{
-  
+  display:none;
 }
 .ais-btn{
   margin-top: 20px;
