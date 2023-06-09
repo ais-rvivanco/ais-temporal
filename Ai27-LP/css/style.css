@@ -427,6 +427,9 @@ footer{
 .message-form{
   display: none;
 }
+.ais-btn{
+  margin-top: 20px;
+}
 @media only screen and (max-width: 1620px) {
 .container {
   max-width: 1300px;
