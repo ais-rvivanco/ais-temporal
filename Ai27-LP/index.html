@@ -43,8 +43,8 @@
         </header>
         <main>        
             <section class="above">
-                <video autoplay loop type=”video/mp4″ src="assets/bg-video-desktop.mp4" ></video>
-                <video class="hidden mobile" autoplay type=”video/mp4″ loop src="assets/bg-video-mobile_1.mp4"></video>
+                <video id="video" autoplay loop type=”video/mp4″ src="assets/bg-video-desktop.mp4" ></video>
+                <video id="video" class="hidden mobile" autoplay type=”video/mp4″ loop src="assets/bg-video-mobile_1.mp4"></video>
                 <div class="txt">
                     <h1>Empresa de Tecnología <br>
                         para Seguridad Logística</h1>
@@ -233,6 +233,8 @@
         </footer>
     </div>
     <script>
+        document.getElementById('myvideo').play();
+        
         let slideIndex = 0;
         showSlides();
         
