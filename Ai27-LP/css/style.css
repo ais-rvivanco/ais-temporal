@@ -321,7 +321,7 @@ h2.logo-tittle{
   flex-flow: row;
 }
 .num{
-  font-family: "Norms-bold.otf";
+  font-family: "Norms-bold";
   font-size: 60pt;
   font-weight: bold;
 }
@@ -662,6 +662,9 @@ h3{
   align-items: center;
   padding-left: 25px;
   padding-right: 25px;
+}
+.cntll-btn{
+  margin-top: -200px;
 }
 .cintillo-btn{
   margin-top: 25px;
