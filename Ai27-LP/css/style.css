@@ -212,9 +212,6 @@ transform: rotate(90deg);
 .card-img:hover{
   transform: scale(1.1);
 }
-.card-container{
-
-}
 .btn-card{
   margin-top: 20px;
 }
