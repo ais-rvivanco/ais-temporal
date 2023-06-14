@@ -42,6 +42,10 @@ body{
   font-family: N-regular;
   src: url(fonts/TTNorms-Regular.otf);
 }
+@font-face {
+  font-family: N-bold;
+  src: url(fonts/TTNorms-bold.otf);
+}
 .container{
   max-width: 1520px;
   margin: 0 auto;
@@ -317,6 +321,7 @@ h2.logo-tittle{
   flex-flow: row;
 }
 .num{
+  font-family: N-bold;
   font-size: 60pt;
   font-weight: bold;
 }
