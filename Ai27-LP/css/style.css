@@ -26,6 +26,9 @@ a{
 a:hover{
   color: #485CC7;
 }
+p{
+  font-family: "Norms-regular";
+}
 body{
   background-color:#051E42;
   font-family: TT Norms;
