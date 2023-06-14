@@ -270,6 +270,9 @@ button.cintillo-btn{
   border-width: 2pt;
   border-style: solid;
 }
+.cintillo-btn:hover{
+  background-color: rgba(255, 255, 255, 0.226);
+}
 .cintillo{
   display: flex;
   align-items: center;
