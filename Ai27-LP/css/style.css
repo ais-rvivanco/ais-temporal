@@ -225,7 +225,6 @@ position: absolute;
 top: 20%;  
 padding: 30px;
 font-size: 15pt;
-overflow-y: scroll;
 }
 .show{
 display: block;
