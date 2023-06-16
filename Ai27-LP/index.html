@@ -66,10 +66,10 @@
                     <h1>Servicio de seguridad integral</h1>
                 </div>
                 <div class="cards">
-                     <div id="Card" class="card-wrapper" onclick="card()">
+                     <div id="Card" class="card-wrapper" onclick="card0()">
                         <img class="card-img" src="assets/Card- Plan de Seguridad.png" alt="Monitoreo Inteligente">
                         <div class="card-container">
-                            <div id="miDiv" class="card-tittle">
+                            <div id="miDiv0" class="card-tittle">
                                 <div class="crd">
                                     <div class="card-icon-tittle">
                                         <img class="card-icon" src="assets/Icon metro-eye.svg" alt="Ícono de ojo monitoreando">
@@ -78,7 +78,7 @@
                                     <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                                 </div>
                             </div>    
-                            <div id="Content" style="display: none;" class="card-txt">
+                            <div id="Content0" style="display: none;" class="card-txt">
                                 <p>Para ofrecerte el mejor monitoreo posible de tus unidades, nos integramos por web service para recibir la señal de tu GPS ya sea desechable, portátil o fijo. <br> <br> De esta manera podemos monitorear tus viajes de forma autónoma con Sofia, nuestro gemelo digital o mediante una estación de monitoreo con personal dedicado. 
                                     <br> Si necesitas adquirir dispositivos de gps o cualquier otro aditamento de seguridad, nosotros podemos cotizarlo.</p>
                             </div>                          
@@ -256,20 +256,20 @@
     </div>
     <script>
         function count(){
-  var counter = { var: 0 };
-  TweenMax.to(counter, 3, {
-    var: 100, 
-    onUpdate: function () {
-      var number = Math.ceil(counter.var);
-      $('.counter').html(number);
-      if(number === counter.var){ count.kill(); }
-    },
-    onComplete: function(){
-      count();
-    },    
-    ease:Circ.easeOut
-  });
-}
+        var counter = { var: 0 };
+        TweenMax.to(counter, 3, {
+            var: 11000, 
+            onUpdate: function () {
+            var number = Math.ceil(counter.var);
+            $('.counter').html(number);
+            if(number === counter.var){ count.kill(); }
+            },
+            onComplete: function(){
+            count();
+            },    
+            ease:Circ.easeOut
+        });
+        }
 
 count();
 
@@ -320,6 +320,10 @@ count();
         toggleDiv();
         cambiarTamaño();
     }
+    function card0(){
+        toggleDiv0();
+        cambiarTamaño0();
+    }
     function card1(){
         toggleDiv1();
         cambiarTamaño1();
@@ -332,8 +336,8 @@ count();
         toggleDiv3();
         cambiarTamaño3();
     }
-    function cambiarTamaño(){
-        var div = document.getElementById("miDiv");
+    function cambiarTamaño0(){
+        var div = document.getElementById("miDiv0");
         if (div.style.height === "347px"){
             div.style.height = "90px";
         }
@@ -369,12 +373,12 @@ count();
         }
     }
     function toggleDiv(){
-        var div = document.getElementById("Content");
-        if (div.style.display === "none"){
-            div.style.display = "block";
+        var div = document.getElementById("Content0");
+        if (div.style.display === "block"){
+            div.style.display = "none";
         }
         else {
-            div.style.display = "none";
+            div.style.display = "block";
         }
     }
     function toggleDiv1(){
