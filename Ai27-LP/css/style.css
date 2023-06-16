@@ -225,7 +225,6 @@ position: absolute;
 top: 20%;  
 padding: 30px;
 font-size: 15pt;
-overflow-y: scroll;
 }
 .show{
 display: block;
@@ -645,6 +644,7 @@ h3{
 }
 .card-txt{
   overflow-y: scroll;
+  word-wrap: break-word;
   font-weight: lighter;
   font-size: 12pt;
   }
