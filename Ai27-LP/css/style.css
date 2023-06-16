@@ -394,6 +394,9 @@ input:hover{
 input.message{
   height: 120px;
 }
+.message-icon{
+  top:20%;
+}
 .form-bttn{
   margin-top: 12px;
   width: 500px;
