@@ -393,6 +393,7 @@ input:hover{
 }
 input.message{
   height: 120px;
+  top: 20%;
 }
 .message-icon{
   top:20%;
