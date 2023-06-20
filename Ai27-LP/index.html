@@ -192,7 +192,7 @@
                 <div class="contacto">
                     <h1>Contacto</h1>
                     <p>Envíanos tus datos junto a un comentario, para que nuestro equipo <br class="espaciado"> pueda contactarte a la brevedad.</p>
-                    <form action="http://cl.s12.exct.net/DEManager.aspx" name="subscribeForm" method="post">
+                    <form action="https://ae2d93a294734447da2cd5a6d46c6fd5-1054131282.us-east-1.elb.amazonaws.com/stg/leads-receptor-service/leads/contact" name="subscribeForm" method="post">
                         <input type="hidden" name="_clientID" value="534004025" />
                         <input type="hidden" name="_deExternalKey" value="B34182F9-45F5-42D1-BC4A-0083701F98E2" />
                         <input type="hidden" name="_action" value="add/update" />
@@ -200,19 +200,19 @@
                         <input type="hidden" name="_successURL" value="Ai27-LP/Success.html" />
                         <input type="hidden" name="_errorURL" value="Ai27-LP/Failed.html" />
                         <div class="input-wrapper">
-                            <input type="text" name="Nombre" id="" placeholder="Nombre completo">
+                            <input type="text" name="full_name" id="" placeholder="Nombre completo">
                             <img class="input-icon" src="assets/Icon feather-user.svg" alt="icon-user">
                         </div>
                         <div class="input-wrapper">
-                            <input type="email" name="Correo" id="" placeholder="Correo electrónico"> 
+                            <input type="email" name="email="" placeholder="Correo electrónico"> 
                             <img class="input-icon" src="assets/Icon simple-email.svg" alt="">
                         </div>
                         <div class="input-wrapper">    
-                            <input type="number" name="Celular" id="" placeholder="Teléfono celular">
+                            <input type="number" name="phone" id="" placeholder="Teléfono celular">
                             <img class="input-icon" src="assets/Icon material-local-phone.svg" alt="">
                         </div>
                         <div class="input-wrapper">    
-                            <input class="message message-icon" type="text" name="Mensaje" placeholder="Mensaje">
+                            <input class="message message-icon" type="text" name="messageplaceholder="Mensaje">
                             <img class="input-icon" src="assets/Icon material-mail-outline.svg" alt="">
                         </div>
                         <button class="form-bttn">ENVIAR</button>
