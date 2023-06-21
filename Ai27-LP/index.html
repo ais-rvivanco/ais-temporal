@@ -204,7 +204,7 @@
                             <img class="input-icon" src="assets/Icon feather-user.svg" alt="icon-user">
                         </div>
                         <div class="input-wrapper">
-                            <input type="email" name="email" placeholder="Correo electrónico"> 
+                            <input id="mail" type="email" name="email" placeholder="Correo electrónico"> 
                             <img class="input-icon" src="assets/Icon simple-email.svg" alt="">
                         </div>
                         <div class="input-wrapper">    
@@ -255,6 +255,15 @@
         </footer>
     </div>
     <script>
+        const email = document.getElementById("mail");
+
+email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("Coloca una dirección de correo valido");
+  } else {
+    email.setCustomValidity("");
+  }
+});
 
         let slideIndex = 0;
         showSlides();
