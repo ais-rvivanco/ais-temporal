@@ -372,9 +372,10 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none; 
   margin: 0; 
 }
-
 input[type=number] { 
-  -moz-appearance: none;}
+  -moz-appearance: textfield !important;
+};}
+  
 input{
   height: 42px;
   width: 500px;
