@@ -69,7 +69,7 @@
                      <div id="Card" class="card-wrapper" onclick="card0()">
                         <img class="card-img" src="assets/Card- Plan de Seguridad.png" alt="Monitoreo Inteligente">
                         <div class="card-container">
-                            <div id="miDiv0" class="card-tittle">
+                            <div id="miDiv00" class="card-tittle">
                                 <div class="crd">
                                     <div class="card-icon-tittle">
                                         <img class="card-icon" src="assets/Icon metro-eye.svg" alt="Ícono de ojo monitoreando">
@@ -78,7 +78,7 @@
                                     <img class="icon-more" style="width: 6px;" src="assets/Icon material-more-vert.svg" alt="Ver más">
                                 </div>
                             </div>    
-                            <div id="Content0" style="display: none;" class="card-txt">
+                            <div id="Content00" style="display: none;" class="card-txt">
                                 <p>Para ofrecerte el mejor monitoreo posible de tus unidades, nos integramos por web service para recibir la señal de tu GPS ya sea desechable, portátil o fijo. <br> <br> De esta manera podemos monitorear tus viajes de forma autónoma con Sofia, nuestro gemelo digital o mediante una estación de monitoreo con personal dedicado. 
                                     <br> Si necesitas adquirir dispositivos de gps o cualquier otro aditamento de seguridad, nosotros podemos cotizarlo.</p>
                             </div>                          
@@ -316,6 +316,10 @@ email.addEventListener("input", function (event) {
         toggleDiv0();
         cambiarTamaño0();
     }
+    function card00(){
+        toggleDiv00();
+        cambiarTamaño00();
+    }
     function card1(){
         toggleDiv1();
         cambiarTamaño1();
@@ -327,6 +331,15 @@ email.addEventListener("input", function (event) {
     function card3(){
         toggleDiv3();
         cambiarTamaño3();
+    }
+    function cambiarTamaño00(){
+        var div = document.getElementById("miDiv00");
+        if (div.style.height === "347px"){
+            div.style.height = "90px";
+        }
+        else {
+            div.style.height = "347px";     
+        }
     }
     function cambiarTamaño0(){
         var div = document.getElementById("miDiv0");
@@ -362,6 +375,15 @@ email.addEventListener("input", function (event) {
         }
         else {
             div.style.height = "347px";     
+        }
+    }
+    function toggleDiv00(){
+        var div = document.getElementById("Content00");
+        if (div.style.display === "block"){
+            div.style.display = "none";
+        }
+        else {
+            div.style.display = "block";
         }
     }
     function toggleDiv0(){
