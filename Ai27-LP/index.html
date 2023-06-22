@@ -285,7 +285,10 @@
     });
 
     function dot(){
-    document.getElementById("Slide1");
+    document.getElementById("Slide1").addEventListener("click", function(){
+        document.toggle("Slide1");
+    });
+
     }
     function dot1(){
     document.getElementById("Slide2");
