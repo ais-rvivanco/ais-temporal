@@ -144,9 +144,9 @@
             <section class="infra">
                 <div>
                     <div class="dot-counter" style="text-align:center">
-                        <span class="dot"></span> 
-                        <span class="dot"></span> 
-                        <span class="dot"></span> 
+                        <span onclick="dot()" id="slide1" class="dot"></span> 
+                        <span onclick="dot1()" id="slide2" class="dot"></span> 
+                        <span onclick="dot2()" id="slide3" class="dot"></span> 
                     </div> 
                     <div class="slider-wrapper">
                         <div class="mySlides fade">
@@ -284,6 +284,15 @@
     document.getElementById("navega").classList.toggle("show");
     });
 
+    function dot(){
+    document.getElementById("Slide1");
+    }
+    function dot1(){
+    document.getElementById("Slide2");
+    }
+    function dot3(){
+    document.getElementById("Slide3");
+    }
 
     function toggleMenu(){
         var div = document.getElementById("navega");
