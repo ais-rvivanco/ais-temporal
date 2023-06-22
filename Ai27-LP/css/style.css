@@ -293,6 +293,7 @@ button.cintillo-btn{
 .tittle-history{
   color: #A20067;
   margin-top: 100px;
+  margin-bottom: 0;
 }
 #clients{
   position: absolute;
