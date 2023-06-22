@@ -194,7 +194,7 @@ transform: rotate(90deg);
   border-radius: 18px 18px 0 0;
   top: 0;
   width: 692px;
-  background: 0% 0% no-repeat padding-box padding-box rgba(100, 100, 100, 0.3);
+  background: 0% 0% no-repeat padding-box padding-box rgba(75, 75, 75, 0.281);
   backdrop-filter: blur(30px);
   text-align: left;
   justify-content: space-between;
