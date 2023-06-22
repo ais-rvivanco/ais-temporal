@@ -311,7 +311,7 @@ h2.logo-tittle{
 .clientes{
   display: flex;
   flex-flow: row;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 250px;
 }
 .historia{
