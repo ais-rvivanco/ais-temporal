@@ -310,6 +310,9 @@ h2.logo-tittle{
   padding-top: 100px;
   padding-left: 250px;
 }
+.historia{
+  text-align: center;
+}
 .datos{
   text-align: left;
   margin: 0 auto;
@@ -892,7 +895,6 @@ input{
     width: 290px;
 }
 }
-
 @media only screen and (max-width: 320px) {
 .container {
   max-width: 310px;
