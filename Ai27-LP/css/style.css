@@ -689,7 +689,7 @@ h3{
 }
 .dot-counter{
   left: 40%;
-  top: 325%;
+  top: 343%;
 }
 .banner{
   text-align: center;
@@ -704,11 +704,9 @@ h3{
   padding-left: 25px;
   padding-right: 25px;
 }
-.cintillo-btn{
-  margin-top: -150px;
-}
+
 button.cintillo-btn{
-  margin-top: 25px;
+  margin-top: -155px;
 }
 
 .cintillo h1{
@@ -720,6 +718,7 @@ button.cintillo-btn{
 .clientes{
   flex-flow: column;
   padding-left: 20px;
+  padding-top: 30px;
 }
 .datos{
   padding-top: 40px;
