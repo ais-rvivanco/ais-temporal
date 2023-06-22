@@ -918,6 +918,9 @@ input{
 .form-bttn{
     width: 290px;
 }
+.infra{
+  margin-top: 300px;
+}
 }
 @media only screen and (max-width: 320px) {
 .container {
@@ -935,6 +938,9 @@ input{
 }
 .form-bttn{
   width: 290px;
+}
+.infra{
+  margin-top: 300px;
 }
 }
 @media only screen and (max-width: 300px) {
