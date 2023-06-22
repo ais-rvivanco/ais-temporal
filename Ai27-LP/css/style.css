@@ -253,7 +253,7 @@ display: block;
   align-content: center;
   display: flex;
   left: 48%;
-  top: 368%;
+  top: 316%;
 }
 .dot{
   height: 15px;
@@ -657,7 +657,6 @@ h3{
   grid-template-columns: repeat(1, 1fr);
   row-gap: 30px;
   column-gap: 55px;
-  
 }
 #Card{
   height: 230px;
