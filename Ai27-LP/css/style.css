@@ -684,7 +684,7 @@ h3{
   font-size: 12pt;
   }
 .infra{
-  margin-top: 350px;
+  margin-top: 400px;
 }
 .dot-counter{
   left: 40%;
@@ -819,7 +819,7 @@ input{
   width: 330px;
 }
 .infra{
-  margin-top: 350px;
+  margin-top: 450px;
 }
 .dot-counter{
   left: 40%;
@@ -851,7 +851,7 @@ input{
     width: 360px;
 }
 .infra{
-  margin-top: 350px;
+  margin-top: 450px;
 }
 .linea{
   left: 55px;
@@ -880,7 +880,7 @@ form{
     width: 340px;
 }
 .infra{
-  margin-top: 400px;
+  margin-top: 450px;
 }
 .card-wrapper{
   width: ;
@@ -918,7 +918,7 @@ input{
     width: 290px;
 }
 .infra{
-  margin-top: 400px;
+  margin-top: 450px;
 }
 }
 @media only screen and (max-width: 320px) {
@@ -939,7 +939,7 @@ input{
   width: 290px;
 }
 .infra{
-  margin-top: 400px;
+  margin-top: 450px;
 }
 }
 @media only screen and (max-width: 300px) {
