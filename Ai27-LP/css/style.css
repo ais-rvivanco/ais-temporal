@@ -853,7 +853,7 @@ input{
     width: 360px;
 }
 .infra{
-  margin-top: 300px;
+  margin-top: 350px;
 }
 .linea{
   left: 55px;
@@ -882,7 +882,7 @@ form{
     width: 340px;
 }
 .infra{
-  margin-top: 300px;
+  margin-top: 350px;
 }
 .card-wrapper{
   width: ;
@@ -920,7 +920,7 @@ input{
     width: 290px;
 }
 .infra{
-  margin-top: 300px;
+  margin-top: 350px;
 }
 }
 @media only screen and (max-width: 320px) {
@@ -941,7 +941,7 @@ input{
   width: 290px;
 }
 .infra{
-  margin-top: 300px;
+  margin-top: 350px;
 }
 }
 @media only screen and (max-width: 300px) {
