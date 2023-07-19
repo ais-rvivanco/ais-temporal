@@ -1,0 +1,229 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos del menú */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-btn {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .menu-items ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-items ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu-items ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu-items ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .submenu li {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .menu-items ul li:hover .submenu {
+    display: block;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input[type=text] {
+    padding: 5px;
+  }
+  
+  .search-container i {
+    margin-left: 5px;
+    color: #fff;
+  }
+  
+  /* Estilos del blog */
+  main {
+    padding: 20px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+/* Estilos para pantallas de hasta 320px (iPhone 5) */
+@media (max-width: 320px) {
+    /* Agregar estilos específicos para esta resolución si es necesario */
+  }
+  
+  /* Estilos para pantallas de 321px a 480px (iPhone 5 en modo paisaje) */
+  @media (min-width: 321px) and (max-width: 480px) {
+    /* Agregar estilos específicos para esta resolución si es necesario */
+  }
+  
+  /* Estilos para pantallas de 481px a 768px (Tablets pequeñas y algunos teléfonos) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* Agregar estilos específicos para esta resolución si es necesario */
+  }
+  
+  /* Estilos para pantallas de 769px a 1024px (Tablets y algunas pantallas de escritorio) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Agregar estilos específicos para esta resolución si es necesario */
+  }
+  
+  /* Estilos para pantallas de 1025px a 1440px (Monitores de escritorio medianos) */
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    /* Agregar estilos específicos para esta resolución si es necesario */
+  }
+  
+  /* Estilos para pantallas de 1441px a 1920px (Monitores de escritorio grandes) */
+  @media (min-width: 1441px) and (max-width: 1920px) {
+    /* Agregar estilos específicos para esta resolución si es necesario */
+  }
+  
+  /* Estilos para pantallas de más de 1920px (Escritorio ultra grande) */
+  @media (min-width: 1921px) {
+    /* Agregar estilos específicos para esta resolución si es necesario */
+  }
+/* Estilos para el menú en versión responsive */
+
+.menu-btn {
+    display: none;
+  }
+  
+  .menu-items {
+    display: block !important;
+  }
+  
+  .menu-items ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .menu-items ul li {
+    display: block;
+    margin-right: 10px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    .menu-btn {
+      display: block;
+    }
+  
+    .menu-items {
+      display: none;
+    }
+  
+    .menu-items.active {
+      display: block;
+    }
+  
+    .menu-items ul {
+      display: block;
+    }
+  
+    .menu-items ul li {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  }
+      
+
+
+  /* Estilos de la línea de tiempo */
+.timeline {
+    position: relative;
+    max-width: 100%;
+    margin: 40px auto;
+  }
+  
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background-color: #ccc;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .timeline-content {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .timeline-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-description {
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .timeline-content {
+      width: 80%;
+    }
+  }
+  
+
+  /* Estilos adicionales */
+.timeline-item {
+    margin-bottom: 40px;
+  }
+  
