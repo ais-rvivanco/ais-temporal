@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Línea de Tiempo</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3 class="timeline-title">Evento 1</h3>
+        <p class="timeline-description">Descripción del Evento 1</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3 class="timeline-title">Evento 2</h3>
+        <p class="timeline-description">Descripción del Evento 2</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3 class="timeline-title">Evento 3</h3>
+        <p class="timeline-description">Descripción del Evento 3</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js">
+    // Obtener elementos del DOM
+var timelineItems = document.querySelectorAll(".timeline-item");
+
+// Agregar clase "active" al primer elemento de la línea de tiempo
+timelineItems[0].classList.add("active");
+
+  </script>
+</body>
+</html>

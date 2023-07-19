@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/swiping-style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.js" integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="swiper-container-wrapper swiper-container-wrapper--timeline">
+          <!-- Timeline -->
+          <ul class="swiper-pagination-custom">
+            <li class='swiper-pagination-switch first active'><span class='switch-title'>1911</span></li>
+            <li class='swiper-pagination-switch'><span class='switch-title'>1970</span></li>
+            <li class='swiper-pagination-switch'><span class='switch-title'>2021</span></li>
+            <li class='swiper-pagination-switch last'><span class='switch-title'>3000</span></li>
+          </ul>
+          <!-- Progressbar -->
+          <div class="swiper-pagination swiper-pagination-progressbar swiper-pagination-horizontal"></div>
+          <!-- Swiper -->
+          <div class="swiper swiper-container swiper-container--timeline">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><span class="title">Swiper Timeline Progressbar</span></div>
+              <div class="swiper-slide"><span class="title">Title 2</span></div>
+              <div class="swiper-slide"><span class="title">Title 3</span></div>
+              <div class="swiper-slide"><span class="title">Title 4</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<script>
+    $(document).ready(function () {
+  var mySwiper = new Swiper(".swiper", {
+    autoHeight: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    speed: 500,
+    direction: "horizontal",
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      type: "progressbar"
+    },
+    loop: false,
+    effect: "slide",
+    spaceBetween: 30,
+    on: {
+      init: function () {
+        $(".swiper-pagination-custom .swiper-pagination-switch").removeClass("active");
+        $(".swiper-pagination-custom .swiper-pagination-switch").eq(0).addClass("active");
+      },
+      slideChangeTransitionStart: function () {
+        $(".swiper-pagination-custom .swiper-pagination-switch").removeClass("active");
+        $(".swiper-pagination-custom .swiper-pagination-switch").eq(mySwiper.realIndex).addClass("active");
+      }
+    }
+  });
+  $(".swiper-pagination-custom .swiper-pagination-switch").click(function () {
+    mySwiper.slideTo($(this).index());
+    $(".swiper-pagination-custom .swiper-pagination-switch").removeClass("active");
+    $(this).addClass("active");
+  });
+});
+</script>
+</html>
