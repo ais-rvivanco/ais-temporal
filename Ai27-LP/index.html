@@ -7,6 +7,10 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="script" href="js/jscript.js">
+
+    <link rel="stylesheet" href="">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
     <style>
         @import url('https://fonts.cdnfonts.com/css/tt-norms');
         body{ 
@@ -21,6 +25,12 @@
             src: url(fonts/TTNorms-Bold.otf);
         }
     </style>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NW3MM77');
+    </script>
 </head>
 <body>
     <div class="container">
@@ -29,6 +39,7 @@
                 <menu>
                     <a href="#above"><img class="logo"  src="assets/Logo-Ai27.png" alt="Logotipo Ai27"></a>
                     <div class="option">
+                        <a href="#"><h2 class="desktop-hidden" style="margin-right: 35px;">Blog</h2></a>
                         <h2 class="desktop-hidden"><a href="#cntc">Contacto</a></h2>
                         <a href="https://www.ais-secure.com/"><img class="desktop-hidden" style="margin-left:50px" src="assets/Logo-ais-blanco.svg" alt="Artificial Intelligence - Mobility Secure"></a>
                         <div onclick="toggleMenu()" id="hamburguer" class="hamburguer"><img class="hidden" src="assets/Icon feather-menu.svg" alt=""></div>
@@ -39,7 +50,8 @@
                 <div class="box"></div>
                 <div class="menu-mobile">
                     <div class="options">
-                        
+                        <h2 class="desktop-hidden">Blog</h2>
+                        <h2 class="desktop-hidden"><a href="#cntc">Contacto</a></h2>
                         <a href="https://www.ais-secure.com/"><img src="assets/Logo-ais-blanco.svg" alt="Artificial Intelligence - Mobility Secure"></a>
                     </div>
                     <div class="options2">
@@ -166,19 +178,110 @@
             </section>
             <section class="banner">
                 <div class="cintillo">
-                    <h1>Nuestro equipo de reacción es más eficiente <br class="espaciado"> gracias a nuestra inteligencia artificial</h1>
+                    <h1>Nuestro equipo de reacción es más eficiente  gracias a nuestra inteligencia artificial</h1>
                     <a href="#cntc"><button class="cintillo-btn cntll-btn">CONTÁCTANOS</button></a>
                 </div>
             </section> 
             <section class="historia" id="clients">
-                <div><h1 class="tittle-history">Nuestra historia</h1></div>   
+                <div class="th"><h1 class="tittle-history">Nuestra historia</h1></div>
+                <section id="timeline" class="desktop-hidden">
+    
+                    <div class="line"></div>
+                    
+                     <div class="tl-item">
+                     <div class="vline"></div> 
+                     <div class="circle"></div>   
+                         <div class="icon">
+                             <img src="assets/icon2011.png" alt="">
+                           </div>
+                       
+                       <div class="tl-bg" style="background-image: url(assets/)"></div>
+                       
+                       <div class="tl-year">
+                         <h1 class="year f2 heading--sanSerif"><2011</h1>
+                       </div>
+                   
+                       <div class="tl-content">
+                         <h1 class="h1tl">Inicio</h1>
+                         <p>ILSP brinda servicios de seguridad tradicional
+                             como escoltas, monitoreo y custodios en ruta.</p>
+                       </div>
+                   
+                     </div>
+                   
+                    <div class="tl-item">
+                        <div class="vline"></div>
+                        <div class="circle"></div>   
+                        <div class="icon">
+                            <img src="assets/icon2015.png" alt="">
+                        </div>
+                        <div class="tl-bg" style="background-image: url(assets/)"></div>
+                        <div class="tl-year">
+                            <h1 class="year f2 heading--sanSerif">2015</h1>
+                            </div>
+                        <div class="tl-content">
+                            <h1 class="h1tl f3 text--accent ttu">Consolidación</h1>
+                            <p>Se consolida como empresa líder en seguridad 
+                             en la industria a nivel nacional. </p>
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="vline"></div>
+                        <div class="circle"></div>
+                        <div class="icon">
+                            <img src="assets/iconcel.png" alt="">
+                        </div>
+                        <div class="tl-bg" style="background-image: url(assets/)"></div>
+                        <div class="tl-year">
+                            <h1 class="year tittle f2 heading--sanSerif">2017</h1>
+                        </div>
+                       <div class="tl-content">
+                         <h1 class="h1tl f3 text--accent ttu">Monitoreo inteligente</h1>
+                         <p>Nuevo software de monitoreo y tecnología IVR
+                             reemplazan el monitoreo tradicional.</p>
+                       </div>
+                     </div>                   
+                     <div class="tl-item">
+                        <div class="vline"></div>
+                        <div class="circle"></div>
+                        <div class="icon">
+                            <img src="assets/iconSofia.png" alt="">
+                        </div>
+                       <div class="tl-bg" style="background-image: url(assets/)"></div>
+                       <div class="tl-year">
+                         <h1 class="year f2 heading--sanSerif">2019</h1>
+                       </div>
+                       <div class="tl-content">
+                         <h1 class="h1tl f3 text--accent ttu">Nacimiento Sofía</h1>
+                         <p>Consolidamos la primera inteligencia artificial
+                             para predicción de riesgo en México y el mundo.</p>
+                       </div>                   
+                        </div> 
+                        <div class="tl-item">
+                            <div class="vline"></div>
+                            <div class="circle"></div>
+                            <div class="icon">
+                                <img src="assets/icon27.png" alt="">
+                            </div>
+                            <div class="tl-bg" style="background-image: url(assets/)"></div>
+                            <div class="tl-year">
+                                <h1 class="year f2 heading--sanSerif">2022</h1>
+                            </div>                    
+                            <div class="tl-content">
+                                <h1 class="h1tl f3 text--accent ttu">Evolución</h1>
+                                <p>ILSP cambia de nombre a Ai27 con la finalidad
+                                    de dar mayor enfoque a sus capacidades
+                                    tecnológicas.</p>
+                            </div>
+                        </div>
+                   </section>   
                 <div class="clientes">
-                    <img class="desktop-hidden timeline" style="width: 480px;" src="assets/time-line.png" alt="">
-                    <img class="hidden timeline-mob" src="assets/time-line-mobile.png" alt="">
+                    <!--<img class="desktop-hidden timeline" style="width: 480px;" src="assets/time-line.png" alt="">
+                    <img class="hidden timeline-mob" src="assets/time-line-mobile.png" alt="">-->
                     <div class="datos">
                         <div class="num-txt"><p class="num"><FONT color="#A20067">+</FONT><span class="counter">25</p><p class="datos-txt">años de<br>trayectoria</p></div>
-                        <div class="num-txt"><p class="num"><FONT color="#A20067">+</FONT><span class="counter">11,700</span></p><p class="datos-txt">líneas de<br>transporte</p></div>
-                        <div class="num-txt"><p class="num"><FONT color="#A20067">+</FONT><span class="counter">250</span></p><p class="datos-txt">clientes<br>AAA</p></div>
+                        <div class="num-txt"><p class="num"><FONT color="#A20067">+</FONT><span class="counter1">11,700</span></p><p class="datos-txt">líneas de<br>transporte</p></div>
+                        <div class="num-txt"><p class="num"><FONT color="#A20067">+</FONT><span class="counter2">250</span></p><p class="datos-txt">clientes<br>AAA</p></div>
                     </div> 
                 <!--<div class="logos">
                         <h2 class="logo-tittle">Con más de <FONT SIZE=20 COLOR="#A20067">25</FONT> años de trayectoria <br> Son los clientes que nos respaldan</h2>
@@ -191,31 +294,34 @@
                     </div>-->
                 </div>
             </section>
-            <section id="cntc" class="Contact">    
-                <div class="contacto">
-                    <h1>Contacto</h1>
-                    <p>Envíanos tus datos junto a un comentario, para que nuestro equipo <br class="espaciado"> pueda contactarte a la brevedad.</p>
-                    <form action="https://api-prod.ais-secure.com/prod/salesforce-leads-service/syncform" method="post">
-                        <div class="input-wrapper">
-                            <input type="text" name="full_name" placeholder="Nombre completo" required>
-                            <img class="input-icon" src="assets/Icon feather-user.svg" alt="icon-user">
+            <section id="cntc" class="Contact">
+                <div class="container-map-contact">  
+                    <div class="map"><iframe class="imap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.875909439134!2d-99.1804672850922!3d19.50397388684386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f80d60c43095%3A0xa3b84c113c8a2a38!2sTecnoParque!5e0!3m2!1ses-419!2smx!4v1687972222238!5m2!1ses-419!2smx" width="600" height="450" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> 
+                    <div class="contacto">
+                        <h1>Contacto</h1>
+                        <p>Envíanos tus datos junto a un comentario, para que nuestro equipo <br class="espaciado"> pueda contactarte a la brevedad.</p>
+                        <form action="https://api-prod.ais-secure.com/prod/salesforce-leads-service/syncform" method="post">
+                            <div class="input-wrapper">
+                                <input type="text" name="full_name" placeholder="Nombre completo" required>
+                                <img class="input-icon" src="assets/Icon feather-user.svg" alt="icon-user">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="email" name="email" placeholder="Correo electrónico" required> 
+                                <img class="input-icon" src="assets/Icon simple-email.svg" alt="">
+                            </div>
+                            <div class="input-wrapper">    
+                                <input type="number" name="phone" id="" placeholder="Teléfono celular" required>
+                                <img class="input-icon" src="assets/Icon material-local-phone.svg" alt="">
+                            </div>
+                            <div class="input-wrapper">    
+                                <input class="message" name="message" type="text" placeholder="Mensaje" required>
+                                <img class="input-icon" src="assets/Icon material-mail-outline.svg" alt="">
+                            </div>
+                            <button class="form-bttn">ENVIAR</button>
+                        </form>
+                        <div class="message-form"><h3>¡Tu mensaje ha sido recibido con éxito!</h3><p>Conoce nuestra plataforma digital AiS secure</p>
+                            <button class="cintillo-btn ais-btn">Ir a AiS</button>
                         </div>
-                        <div class="input-wrapper">
-                            <input type="email" name="email" placeholder="Correo electrónico" required> 
-                            <img class="input-icon" src="assets/Icon simple-email.svg" alt="">
-                        </div>
-                        <div class="input-wrapper">    
-                            <input type="number" name="phone" id="" placeholder="Teléfono celular" required>
-                            <img class="input-icon" src="assets/Icon material-local-phone.svg" alt="">
-                        </div>
-                        <div class="input-wrapper">    
-                            <input class="message" name="message" type="text" placeholder="Mensaje" required>
-                            <img class="input-icon" src="assets/Icon material-mail-outline.svg" alt="">
-                        </div>
-                        <button class="form-bttn">ENVIAR</button>
-                    </form>
-                    <div class="message-form"><h3>¡Tu mensaje ha sido recibido con éxito!</h3><p>Conoce nuestra plataforma digital AiS secure</p>
-                        <button class="cintillo-btn ais-btn">Ir a AiS</button>
                     </div>
                 </div>
             </section>    
@@ -226,7 +332,7 @@
                     <img style="margin-bottom: 30px;" src="assets/Grupo 19072.svg" alt="Logotipo Ai27">
                     <p class="links"><a href="https://ais-secure.com/Aviso.html">Aviso de Privacidad</a></p>
                     <p class="links"><a href="https://ais-secure.com/Terminos.html">Términos y condiciones</a></p>
-                    <p class="links"><a href="#">Blog</a></p>
+                    <p class="links"><a href="#">Comunidad AI27</a></p>
                 </div>    
                 <div class="redes">
                     <div class="redes-column">
@@ -237,7 +343,10 @@
                               </svg></a>
                             <a href="https://www.linkedin.com/company/ai27/"><svg class="redes-icon" id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" xmlns="http://www.w3.org/2000/svg" width="23.906" height="23.906" viewBox="0 0 23.906 23.906">
                                 <path class="redes-icon" id="Icon_awesome-linkedin-in-2" data-name="Icon awesome-linkedin-in" d="M5.351,23.906H.395V7.946H5.351ZM2.87,5.769a2.884,2.884,0,1,1,2.87-2.9A2.9,2.9,0,0,1,2.87,5.769ZM23.9,23.906H18.956v-7.77c0-1.852-.037-4.226-2.577-4.226-2.577,0-2.972,2.012-2.972,4.093v7.9H8.456V7.946h4.754v2.177h.069a5.208,5.208,0,0,1,4.69-2.577c5.016,0,5.938,3.3,5.938,7.593v8.767Z" transform="translate(0 -0.001)" fill="#fff"/>
-                              </svg></a>  
+                              </svg></a>
+                            <a href="https://www.youtube.com/@ai27predictiveintelligence"><svg class="redes-icon" width="26" xmlns="http://www.w3.org/2000/svg" width="38.4" height="27" viewBox="0 0 38.4 27">
+                                <path id="Icon_awesome-youtube" data-name="Icon awesome-youtube" d="M38.648,8.725a4.825,4.825,0,0,0-3.395-3.417c-2.995-.808-15-.808-15-.808s-12.008,0-15,.808A4.825,4.825,0,0,0,1.852,8.725c-.8,3.014-.8,9.3-.8,9.3s0,6.289.8,9.3a4.753,4.753,0,0,0,3.395,3.362c2.995.808,15,.808,15,.808s12.008,0,15-.808a4.753,4.753,0,0,0,3.395-3.362c.8-3.014.8-9.3.8-9.3s0-6.289-.8-9.3ZM16.323,23.737V12.318l10.036,5.71L16.323,23.737Z" transform="translate(-1.05 -4.5)" fill="#fff"/>
+                              </svg></a>     
                             <a href="https://www.instagram.com/ai27oficial/"><svg class="redes-icon" id="Icon_awesome-instagram" data-name="Icon awesome-instagram" xmlns="http://www.w3.org/2000/svg" width="23.92" height="23.914" viewBox="0 0 23.92 23.914">
                                 <path class="redes-icon" id="Icon_awesome-instagram-2" data-name="Icon awesome-instagram" d="M11.957,8.063a6.131,6.131,0,1,0,6.131,6.131A6.122,6.122,0,0,0,11.957,8.063Zm0,10.117a3.986,3.986,0,1,1,3.986-3.986,3.993,3.993,0,0,1-3.986,3.986ZM19.77,7.813a1.43,1.43,0,1,1-1.43-1.43A1.427,1.427,0,0,1,19.77,7.813Zm4.061,1.451A7.077,7.077,0,0,0,21.9,4.253a7.124,7.124,0,0,0-5.011-1.932C14.914,2.21,9,2.21,7.021,2.322A7.114,7.114,0,0,0,2.011,4.248,7.1,7.1,0,0,0,.079,9.259c-.112,1.974-.112,7.892,0,9.867a7.077,7.077,0,0,0,1.932,5.011,7.133,7.133,0,0,0,5.011,1.932c1.974.112,7.892.112,9.867,0A7.077,7.077,0,0,0,21.9,24.136a7.124,7.124,0,0,0,1.932-5.011c.112-1.974.112-7.887,0-9.861ZM21.28,21.244a4.036,4.036,0,0,1-2.273,2.273c-1.574.624-5.31.48-7.049.48s-5.48.139-7.049-.48a4.036,4.036,0,0,1-2.273-2.273c-.624-1.574-.48-5.309-.48-7.049s-.139-5.48.48-7.049A4.036,4.036,0,0,1,4.908,4.872c1.574-.624,5.31-.48,7.049-.48s5.48-.139,7.049.48A4.036,4.036,0,0,1,21.28,7.146c.624,1.574.48,5.309.48,7.049S21.9,19.675,21.28,21.244Z" transform="translate(0.005 -2.238)" fill="#fff"/>
                               </svg></a>
@@ -252,7 +361,57 @@
         </footer>
     </div>
     <script>
-        
+function count(){
+  var counter = { var: 0 };
+  TweenMax.to(counter, 3, {
+    var: 25, 
+    onUpdate: function () {
+      var number = Math.ceil(counter.var);
+      $('.counter').html(number);
+      if(number === counter.var){ count.kill(); }
+    },
+    onComplete: function(){
+      count();
+    },    
+    ease:Circ.easeOut
+  });
+}
+count();
+
+function count1(){
+  var counter = { var: 0 };
+  TweenMax.to(counter, 3, {
+    var: 11700, 
+    onUpdate: function () {
+      var number = Math.ceil(counter.var);
+      $('.counter1').html(number);
+      if(number === counter.var){ count.kill(); }
+    },
+    onComplete: function(){
+      count();
+    },    
+    ease:Circ.easeOut
+  });
+}
+count1();
+
+function count2(){
+  var counter = { var: 0 };
+  TweenMax.to(counter, 3, {
+    var: 250, 
+    onUpdate: function () {
+      var number = Math.ceil(counter.var);
+      $('.counter2').html(number);
+      if(number === counter.var){ count.kill(); }
+    },
+    onComplete: function(){
+      count();
+    },    
+    ease:Circ.easeOut
+  });
+}
+count2();
+
 
         let slideIndex = 0;
         showSlides();
@@ -271,7 +430,7 @@
           }
           slides[slideIndex-1].style.display = "block";  
           dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 4500);
+          setTimeout(showSlides, 5500);
         }
 
         document.getElementById('myvideo').play();  
@@ -422,6 +581,18 @@ email.addEventListener("input", function (event) {
     email.setCustomValidity("");
   }
 });
+
+
+var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+if (isSafari) {
+  var elemento = document.getElementById('menu');
+  if (elemento) {
+    elemento.classList.add('MenuSafari');
+  }
+}
     </script>    
 </body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW3MM77"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </html>
