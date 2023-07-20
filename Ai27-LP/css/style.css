@@ -36,6 +36,8 @@ body{
   background-color:#051E42;
   font-family: TT Norms;
   color: white;
+  -moz-font-feature-settings: "liga" off;
+  font-feature-settings: "liga" off;
 }
 @font-face {
   font-family: N-light;
