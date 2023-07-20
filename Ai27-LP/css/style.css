@@ -1151,14 +1151,11 @@ button.cintillo-btn{
 .Contact{
   margin-top: 1500px;
 }
-.counter{
+.num{
   color:white;
 }
-.counter1{
-  color: white;
-}
-.counter2{
-  color: white;
+.datos-txt{
+  color:white;
 }
 .container-map-contact{
   display: flex;
