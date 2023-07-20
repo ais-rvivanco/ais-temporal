@@ -1151,6 +1151,15 @@ button.cintillo-btn{
 .Contact{
   margin-top: 1500px;
 }
+.counter{
+  color:white;
+}
+.counter1{
+  color: white;
+}
+.counter2{
+  color: white;
+}
 .container-map-contact{
   display: flex;
   flex-flow: column;
