@@ -279,7 +279,7 @@
                 <div class="clientes">
                     <!--<img class="desktop-hidden timeline" style="width: 480px;" src="assets/time-line.png" alt="">
                     <img class="hidden timeline-mob" src="assets/time-line-mobile.png" alt="">-->
-                    <div class="datos">
+                    <div class="datos" id="datos-counter">
                         <div class="num-txt"><p class="num"><FONT color="#A20067">+</FONT><span class="counter">25</p><p class="datos-txt">años de<br>trayectoria</p></div>
                         <div class="num-txt"><p class="num"><FONT color="#A20067">+</FONT><span class="counter1">11,700</span></p><p class="datos-txt">líneas de<br>transporte</p></div>
                         <div class="num-txt"><p class="num"><FONT color="#A20067">+</FONT><span class="counter2">250</span></p><p class="datos-txt">clientes<br>AAA</p></div>
@@ -592,6 +592,10 @@ if (isSafari) {
     elemento.classList.add('MenuSafari');
   }
 }
+
+var 
+var target = document.querySelector('#datos-counter');
+observer.observe(target);
     </script>    
 </body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW3MM77"
