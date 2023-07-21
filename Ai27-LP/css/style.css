@@ -528,6 +528,8 @@ h1.h1tl{
 }
 .tl-content{
   margin-top: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .vline{
   background-color: white;
