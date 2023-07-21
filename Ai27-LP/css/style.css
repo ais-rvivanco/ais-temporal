@@ -526,6 +526,9 @@ h1.h1tl{
   left: 5%;
   border-radius: 10px;
 }
+.tl-content{
+  margin-top: 28px;
+}
 .vline{
   background-color: white;
   height: 80px;
