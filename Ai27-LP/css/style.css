@@ -502,7 +502,6 @@ body {
 #timeline {
   display: flex;
   background-color: #051E42;
-  
   &:hover {
     .tl-item {
       width: 23.3333%;
@@ -1287,7 +1286,7 @@ h1.h1tl{
   margin: auto 0;
   z-index: 9;
   position: absolute;
-
+  left: 28%;
   top: 8%;
 }
 
