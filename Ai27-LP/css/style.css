@@ -502,7 +502,7 @@ body {
 #timeline {
   display: flex;
   background-color: #051E42;
-
+  max-width: 1500px;
   &:hover {
     .tl-item {
       width: 23.3333%;
