@@ -1286,7 +1286,7 @@ h1.h1tl{
   margin: auto 0;
   z-index: 9;
   position: absolute;
-  left: 28%;
+  left: 32%;
   top: 8%;
 }
 
@@ -1344,7 +1344,7 @@ h1.h1tl{
       filter: grayscale(0);
     }
     .icon{
-      left:20%;
+      left:32%;
       animation-duration: 3s;
     }
   }
