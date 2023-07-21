@@ -1346,7 +1346,7 @@ h1.h1tl{
       filter: grayscale(0);
     }
     .icon{
-      left:32%;
+      left:20%;
       animation-duration: 3s;
     }
   }
