@@ -343,6 +343,8 @@ h2.logo-tittle{
   display: flex;
   flex-flow: row;
   padding-top: 40px;
+  background-color: white;
+  padding-bottom: 60px;
 }
 .historia{
   text-align: center;
