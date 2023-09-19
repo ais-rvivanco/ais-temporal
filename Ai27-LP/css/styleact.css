@@ -1059,7 +1059,7 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
     width: 75%;
   }
 }
-@media only screen and (max-width:430px), screen and (max-height: 932px) {
+@media only screen and (max-width:430px), screen and (height: 932px) {
   .servicios{
     height: 115vh;
   }
@@ -1074,7 +1074,7 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
     height: 360px;
   }
 }
-@media only screen and (max-width: 414px),screen and (max-height: 932px),screen and (max-height: 915px) {
+@media only screen and (max-width: 414px),screen and (height: 932px),screen and (height: 915px) {
   .tittle-services{
     width: 50%;
     margin-left: 235px;
@@ -1111,7 +1111,7 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
     height: 355px;
   }
 }
-@media only screen and (max-width: 390px),screen and (max-height: 844px) {
+@media only screen and (max-width: 390px),screen and (height: 844px) {
   .form{
     width: 72%;
     padding-left: -16px;
@@ -1154,7 +1154,7 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
     height: 330px;
   }
 }
-@media only screen and (max-width: 375px), (max-height:812px) {
+@media only screen and (max-width: 375px), (height:812px) {
   .focus{
     top: 32vh;
   }
