@@ -693,6 +693,31 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
   .menu{
     height: 110px;
   }
+  .bg{
+    width: 120%;
+  }
+  .infra{
+    margin-bottom: 750px;
+  }
+  .timeline-wrap{
+    height: 312px;
+  }
+  .times{
+
+  }
+  .time-sect{
+    max-width: 208px;
+  }
+  .tl-color{
+    width: 220px;
+    height: 130px;
+  }
+  .img-tl-width{
+    width: 220px;
+  }
+  .tl-content{
+    font-size: 12.5pt;
+  }
 }
 @media only screen and (max-width: 1400px) {
   .menu{
@@ -853,7 +878,7 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
     left: 0;
   }
   .servicios{
-    height: 115vh;
+    height: 130vh;
     width: 155%;
     padding-top: 600px;
   }
@@ -908,7 +933,8 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
     .module5 { grid-area: 3 / 2 / 4 / 3; }
   
   .infra{
-    margin-bottom:680px;
+    margin-bottom:600px;
+    
   }
   #slider, .wrap, .slide-content{
     margin-left: -25px;
@@ -1033,7 +1059,32 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
     width: 75%;
   }
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width:430px), screen and (max-height: 932px) {
+  .servicios{
+    height: 115vh;
+  }
+  .infra{
+    margin-bottom: 690px;
+  }
+  .bg-mob{
+    width: 433px;
+  }
+  iframe{
+    width: 360px;
+    height: 360px;
+  }
+}
+@media only screen and (max-width: 414px),screen and (max-height: 932px),screen and (max-height: 915px) {
+  .tittle-services{
+    width: 50%;
+    margin-left: 235px;
+  }
+  .servicios{
+    height: 125vh ;
+  }
+  .infra{
+    margin-bottom: 650px;
+  }
   .grid{
     width: 63%;
   }
@@ -1060,7 +1111,7 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
     height: 355px;
   }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 390px),screen and (max-height: 844px) {
   .form{
     width: 72%;
     padding-left: -16px;
@@ -1078,6 +1129,9 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
   .module-tittle{
     font-size: 9pt;
   }
+  .tittle-services{
+    padding-top: 150px;
+  }
   .bg-mob{
     margin-top:-80px;
     width: 390px;
@@ -1090,13 +1144,17 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
   }
   .servicios{
     height: 125vh;
+    
+  }
+  .infra{
+    margin-bottom: 680px;
   }
   iframe{
     width: 330px;
     height: 330px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px), (max-height:812px) {
   .focus{
     top: 32vh;
   }
