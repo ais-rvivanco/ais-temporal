@@ -7,7 +7,9 @@ a{
     text-decoration: none;
 }
 body{
-    background-color: #041E42;
+  font-family: Poppins;
+  background-color: white;
+  color:#011E41;
 }
 h1 h2{
     font-family: "Poppins-Bold";
@@ -174,7 +176,10 @@ button{
     padding-left: 40px;
     padding-right: 40px;
     background: rgb(165,0,100);
-background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, rgba(83,0,50,1) 100%);
+    background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, rgba(83,0,50,1) 100%);
+}
+button:hover{
+  cursor:pointer;
 }
 .btn-trans{
     border-color: white;
@@ -532,7 +537,8 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
     display: none;
   }
   footer{
-    margin-top: 1075px;
+    margin-top: 105px;
+    padding: 40px;
   }
   .footer{
     display: flex;
@@ -549,6 +555,9 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
   }
 .footer-term{
   
+  }
+  .AT-container{
+    margin-top: 120px;
   }
 .redes{
   margin-left: 15px;
@@ -846,7 +855,7 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
   }
   #message::placeholder{
     position: absolute;
-    top:10px;
+    top:-6px;
   }
   .atf-btn{
     margin-top: 70px;
