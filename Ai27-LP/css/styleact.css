@@ -799,7 +799,7 @@ background: linear-gradient(180deg, rgba(165,0,100,1) 0%, rgba(128,0,78,1) 88%, 
   }
   .form{
     position: fixed;
-    top: 85vh;
+    top: 87vh;
     width: 360px;
     z-index: 9;
     height: 470px; 
