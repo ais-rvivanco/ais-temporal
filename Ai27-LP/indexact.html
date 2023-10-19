@@ -136,8 +136,8 @@
                             <div id="miDiv00" class="module-rect">
                                 <div class="module-tittle">
                                     <h2>Monitoreo inteligente</h2>
-                                    <img class="plus-icon" src="assets/plus.svg" alt="">
-                                    <img class="less-icon" src="assets/Trazado 8003.svg" alt="">
+                                    <!--<img class="plus-icon" src="assets/plus.svg" alt="">
+                                    <img class="less-icon" src="assets/Trazado 8003.svg" alt="">-->
                                 </div>    
                                 <div class="textoverflow">
                                     <p id="Content00" class="module-text">Integrado por web service de
@@ -156,7 +156,7 @@
                             <div id="miDiv01" class="module-rect">
                                 <div class="module-tittle">
                                     <h2>Custodias <br> en ruta</h2>
-                                    <img class="plus-icon" src="assets/plus.svg" alt="">
+                                    
                                 </div>
                                 <div class="textoverflow">    
                                     <p id="Content01" class="module-text">Acompañamiento a todo tu viaje en local o foráneo 
@@ -172,7 +172,7 @@
                             <div id="miDiv02" class="module-rect">
                                 <div class="module-tittle">
                                     <h2>Equipo de reacción</h2>
-                                    <img class="plus-icon" src="assets/plus.svg" alt="">
+                                    <!--<img class="plus-icon" src="assets/plus.svg" alt="">-->
                                 </div>    
                                 <p id="Content02" class="module-text">+200 unidades en campo 
                                     <br><br>
@@ -191,7 +191,7 @@
                             <div id="miDiv03" class="module-rect">
                                 <div class="module-tittle">
                                     <h2>Secure <br> Mobility</h2>
-                                    <img class="plus-icon" src="assets/plus.svg" alt="">
+                                    <!--<img class="plus-icon" src="assets/plus.svg" alt="">-->
                                 </div>
                                 <div>   
                                     <p id="Content03" class="module-text">Herramienta digital autónoma, la cual brinda protección y seguridad para mercancía y embarques por medio de una plataforma online a costos accesibles.</p>
@@ -207,9 +207,9 @@
                             <div id="miDiv04" class="module-rect">
                                 <div class="module-tittle">
                                     <h2>Aditamentos</h2>
-                                    <img class="plus-icon" src="assets/plus.svg" alt="">
+                                    <!--<img class="plus-icon" src="assets/plus.svg" alt="">-->
                                 </div>    
-                                <p id="Content04" class="module-text">Contamos con hardware y tecnología de vanguardia para un sistema de seguridad completo: cámaras de reconocimiento facial, GPS, testigos de carga, candados mecánicos, paro de motor y más. </p>
+                                <p id="Content04" class="module-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit…."</p>
                             </div>
                             <div class="module-img">
                                 <img class="mod-mobile" src="assets/img-mod5-mobile.jpg" alt="">
@@ -435,6 +435,7 @@
     </div>    
 </body>
 <script>
+
    function formAnimation(){
         let cuadros = document.querySelectorAll('.form');
 
@@ -455,6 +456,8 @@
             div.style.display = "block";
         }
     }
+
+
     function card00(){
         toggleDiv00();
         cambiarTamaño00();
@@ -462,6 +465,7 @@
     function card01(){
         toggleDiv01();
         cambiarTamaño01();
+        buttonEvent(event);
     }
     function card02(){
         toggleDiv02();
@@ -475,8 +479,25 @@
         toggleDiv04();
         cambiarTamaño04();
     }
+
+    function buttonEvent(event) {
+
+    if (event.type == "click" && event.button == 0) {
+    var SVGDocument = event.target.ownerDocument;
+    var circuloRojo  = SVGDocument.getElementById("plus");
+
+
+    if (botonclick.getAttribute("value")=="1"){
+       circuloVerde.setAttribute("fill", "white");
+       botonclick.setAttribute("value", "2");
+    } 
+    }
+}
+
+    var SVGDocument = event.target.ownerDocument;
     function cambiarTamaño00(){
         var div = document.getElementById("miDiv00");
+        var svg 
         if (div.style.height === "577px"){
             div.style.height = "108px";
             div.style.backgroundColor = "white";
