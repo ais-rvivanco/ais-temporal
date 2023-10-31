@@ -102,6 +102,10 @@
                             <input placeholder="Número celular" type="text" name="phone" required>    
                         </div>
                         <div class="input-wrapper">
+                            <img class="icon-input" src="assets/Icon awesome-building.svg" alt="">
+                            <input placeholder="Empresa" type="text" name="company" required>    
+                        </div>
+                        <div class="input-wrapper">
                             <img class="icon-message" src="assets/Icon material-mail-outline.svg" alt="">
                             <input id="message" class="input-message" placeholder="Mensaje" type="text" name="message" required>    
                         </div>
@@ -112,7 +116,7 @@
                     <img src="assets/" alt="">
                 </div>
                 <div class="card-container">
-                    <div id="overlay" class="cards" onm>
+                    <div id="overlay" class="cards">
                         <div class="card">
                             <h3 class="card-text">Primer AI para predicción de riesgos en el mundo.</h3>
                             <img class="icon-card" src="assets/card-img1.svg" alt="">
@@ -148,8 +152,10 @@
                                 </div>
                             </div>
                             <div class="module-img">
-                                <img class="mod-mobile" src="assets/img-mod1-mobile.jpg" alt="">
-                                <img class="mod-desktop" src="assets/module1-img.jpg" alt="Monitoreo inteligente">
+                
+                                    <img class="mod-desktop" src="assets/module1-img.jpg" alt="Monitoreo inteligente">
+                                    <img class="mod-mobile" src="assets/img-mod1-mobile.jpg" alt="">
+                                
                             </div>
                         </div>
                         <div class="module 2" onclick="card01()">
@@ -401,7 +407,8 @@
                             </div>
                             <a href="https://www.ais-secure.com/privacidad"><p class="links">Aviso de Privacidad</p></a>
                             <a href="https://ais-rvivanco.github.io/ais-temporal/Ai27-LP/Terminos.html"><p class="links">Términos y Condiciones</p></a>
-                            <a href="https://ai27blog.com.mx/"><p class="links">Comunidad AI27</p></a>
+                            <a href="https://ai27blog.com.mx/"><p class="links">Comunidad AI27</p></a> <br>
+                            <p style="color: white;">ILSP GLOBAL SEGURIDAD PRIVADA, S.A.P.I. DE C.V.</p>
                         </div>
                         <div class="right">
                             <div class="logo-ais">
@@ -465,7 +472,6 @@
     function card01(){
         toggleDiv01();
         cambiarTamaño01();
-        buttonEvent(event);
     }
     function card02(){
         toggleDiv02();
@@ -480,24 +486,8 @@
         cambiarTamaño04();
     }
 
-    function buttonEvent(event) {
-
-    if (event.type == "click" && event.button == 0) {
-    var SVGDocument = event.target.ownerDocument;
-    var circuloRojo  = SVGDocument.getElementById("plus");
-
-
-    if (botonclick.getAttribute("value")=="1"){
-       circuloVerde.setAttribute("fill", "white");
-       botonclick.setAttribute("value", "2");
-    } 
-    }
-}
-
-    var SVGDocument = event.target.ownerDocument;
     function cambiarTamaño00(){
         var div = document.getElementById("miDiv00");
-        var svg 
         if (div.style.height === "577px"){
             div.style.height = "108px";
             div.style.backgroundColor = "white";
@@ -506,10 +496,9 @@
         else {
             div.style.height = "577px";
             div.style.backgroundColor = "#011E41";
-            div.style.color = "white";     
+            div.style.color = "white";       
         }
     }
-
     function toggleDiv00(){
         var div = document.getElementById("Content00");
         if (div.style.display === "block"){
